@@ -1,0 +1,76 @@
+/*******************************************************/
+/******************  25. Team Member *******************/
+/*******************************************************/
+.team-member
+    margin-bottom: 55px
+    .image
+        margin-right: 20px
+        img
+            width: 100%
+    .content
+        transition: 0.5s
+        max-width: 100%
+        margin-top: -50px
+        margin-left: auto
+        text-align: center
+        width: max-content
+        padding: 25px 30px
+        +overlay(white, 1)
+        &:before
+            transition: 0.5s
+            border-radius: 5px
+            height: calc(100% - 55px)
+            box-shadow: 10px 0 30px rgba(0, 0, 0, 0.1)
+        h5
+            font-size: 22px
+            margin-bottom: 5px
+        .designation
+            display: block
+            font-size: 16px
+            margin-bottom: 10px
+        .social-style-two
+            opacity: 0
+            transition: 0.5s
+            visibility: hidden
+    &:hover
+        .content
+            margin-top: -75px
+            &:before
+                height: 100%
+            .social-style-two
+                opacity: 1
+                visibility: visible
+                transition-delay: 0.5s
+            
+.team-area
+    .circle-shapes
+        top: 55%
+        left: 48%
+        width: 380px
+        padding-top: 380px  
+        
+.team-slider
+    +gapLR(margin, -35px)
+    .team-member
+        +gapLR(margin, 35px)
+
+/* Team Page */
+.team-why-choose-images
+    display: flex
+    align-items: flex-end
+    .image-one
+        z-index: 1
+        max-width: 48%
+        position: relative
+        margin-right: -10%
+        border-radius: 10px
+    .image-two
+        max-width: 60%
+        margin-bottom: 20%
+        border-radius: 10px
+.team-page-area
+    .circle-shapes
+        left: 48%
+        top: 500px
+        width: 380px
+        padding-top: 380px

@@ -1,0 +1,65 @@
+/*******************************************************/
+/********************  15. CTA Area ********************/
+/*******************************************************/
+.cta-area
+    overflow: hidden
+    
+.cta-content
+    max-width: 400px
+    margin-left: auto
+    +res-ab(lb)
+        margin-right: 65px
+    +res-bl(xl)
+        +gapLR(margin, auto)
+    +res-bl(ms)
+        +gapLR(margin, 35px)
+    +res-bl(xs)
+        +gapLR(margin, 25px)
+    
+.cta-left-image
+    max-width: 100%
+    width: max-content
+    .circle-shapes
+        left: 55%
+        top: 80%
+        
+.cta-right-image
+    max-width: 100%
+    width: max-content
+    +res-bl(xl)
+        margin-left: auto
+    .circle-shapes
+        left: 35%
+        top: 65%
+        
+.circle-shapes.white-shape
+    &:after,
+    &:before
+        border-color: rgba(255, 255, 255, 0.3)
+    .shape-inner
+        span
+            background: white
+            
+/* CTA Two */
+.cta-two-area
+    overflow: hidden
+    .circle-shapes
+        &:after,
+        &:before
+            border-color: rgba(255, 255, 255, 0.15)
+.cta-two-content
+    .sub-title
+        color: #feb47b
+    .list-style-one
+        li
+            &:before
+                color: #feb47b
+                font-size: 22px
+    .circle-shapes
+        top: 100%
+        left: 15%
+.cta-two-image
+    +res-ab(lg)
+        margin-right: -210px
+    .circle-shapes
+        top: 75%

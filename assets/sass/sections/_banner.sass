@@ -1,0 +1,45 @@
+/*******************************************************/
+/*******************  09. Banner Area ******************/
+/*******************************************************/
+.page-banner
+    +overlay(linear-gradient(90deg, rgba(0, 0, 0, 0.66), transparent), 1)
+    +res-ab(lb)
+        +gapLR(margin, 115px)
+    &.style-two
+        &:after,
+        &:before
+            display: none
+        .page-title
+            +res-ab(xl)
+                font-size: 65px
+        
+.banner-inner
+    .page-title
+        margin-bottom: 20px
+        text-transform: capitalize
+        +res-bl(md)
+            font-size: 35px
+        +res-bl(sm)
+            font-size: 30px
+    .breadcrumb
+        margin-bottom: 0
+        padding: 4px 20px
+        border-radius: 5px
+        background: #ff7e5f
+        display: inline-flex
+        +res-bl(sm)
+            font-size: 16px
+            +gapTB(padding, 2px)
+        .breadcrumb-item
+            color: white
+            font-weight: 500
+            text-transform: capitalize
+            a
+                color: white
+            &+.breadcrumb-item
+                padding-left: 10px
+                &:before
+                    color: white
+                    content: '\f105'
+                    padding-right: 10px
+                    font-family: 'Font Awesome 5 Pro'

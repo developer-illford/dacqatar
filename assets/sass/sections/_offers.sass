@@ -1,0 +1,123 @@
+/*******************************************************/
+/******************  22. Offers Area *******************/
+/*******************************************************/
+.offer-banners
+    +res-ab(lb)
+        +gapLR(padding, 55px)
+        
+.offer-banner-item
+    padding: 50px
+    margin-bottom: 30px
+    background-size: cover
+    height: calc(100% - 30px)
+    background-position: center
+    +res-bl(xs)
+        +gapLR(padding, 25px)
+    .content
+        margin-left: auto
+        max-width: max-content
+        .off
+            font-size: 16px
+            font-weight: 600
+            letter-spacing: 10px
+            color: $heading-color
+        h3
+            +res-ab(xxl)
+                font-size: 30px
+            +res-bl(ms)
+                font-size: 25px
+        .theme-btn
+            margin-top: 55px
+            &:not(:hover)
+                background: white
+            
+/* Special Offer */
+.count-down-wrap
+    overflow: hidden
+    +gapLR(padding, 50px)
+    +res-ab(lg)
+        display: flex
+    +res-bl(xs)
+        +gapLR(padding, 25px)
+.special-offer-left
+    flex: none
+    max-width: 100%
+    align-self: center
+    width: max-content
+    +gapLR(margin, auto)
+    +res-ab(lg)
+        width: 26%
+    .circle-shapes
+        left: 44%
+        +res-ab(xs)
+            width: 110%
+            padding-top: 110%
+        &:after,
+        &:before
+            animation: none
+.special-offer-right
+    flex: none
+    z-index: 1
+    max-width: 100%
+    width: max-content
+    +gapLR(margin, auto)
+    position: relative
+    align-self: self-end
+    +res-ab(lg)
+        width: 24%
+    &:before
+        content: ''
+        width: 110%
+        z-index: -1
+        left: -5%
+        top: -5%
+        padding-top: 110%
+        position: absolute
+        background: $bg-gradient
+        border-radius: 55% 45% 50% 50%
+        animation: 10s border-radius infinite
+.count-down-content
+    +res-ab(md)
+        +gapLR(padding, 45px)
+    .section-title
+        h2
+            +res-bt(md, xl)
+                font-size: 38px
+.count-down
+    display: flex
+    line-height: 1
+    flex-wrap: wrap
+    font-size: 15px
+    font-weight: 500
+    background: white
+    border-radius: 7px
+    align-items: center
+    padding: 25px 0 5px
+    text-transform: capitalize
+    li
+        width: 25%
+        position: relative
+        margin-bottom: 20px
+        +res-bl(sm)
+            width: 50%
+            &:nth-child(2n)
+                &:after
+                    display: none
+        &:after
+            content: ':'
+            right: 0
+            top: 50%
+            font-size: 30px
+            font-weight: 600
+            position: absolute
+            color: $heading-color
+            transform: translate(50%, -50%)
+        &:last-child
+            &:after
+                display: none
+        span
+            display: block
+            font-size: 38px
+            font-weight: 600
+            margin-bottom: 8px
+            color: $primary-color

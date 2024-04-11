@@ -1,0 +1,59 @@
+/*******************************************************/
+/******************  17. Pricing Area ******************/
+/*******************************************************/
+.pricing-plan-item
+    padding: 40px
+    transition: 0.5s
+    background: white
+    text-align: center
+    margin-bottom: 30px
+    border: 1px solid white
+    box-shadow: 10px 0 60px rgba(132, 132, 132, 0.1)
+    +res-bl(xs)
+        +gapLR(padding, 25px)
+    &:hover
+        border-color: $primary-color
+    .title
+        margin-bottom: 35px
+    .image
+        height: 0
+        padding-top: 80%
+        position: relative
+        margin-bottom: 33px
+        img
+            +abs-middle()
+            max-width: 100%
+            max-height: 100%
+    ul
+        padding-bottom: 25px
+        li
+            color: black
+            display: flex
+            font-size: 20px
+            font-weight: 500
+            margin-bottom: 11px
+            align-items: center
+            justify-content: space-between
+            i
+                color: white
+                font-size: 12px
+                +circle($primary-color, 25px)
+            &.unavailable
+                i
+                    background: #f29d76
+    .price
+        color: black
+        display: block
+        font-size: 48px
+        font-weight: 500
+        text-align: left
+        margin-bottom: 35px
+        +res-bl(xs)
+            font-size: 38px
+        &:before
+            content: '$'
+            font-size: 22px
+        &:after
+            font-size: 16px
+            content: '/monthly'
+            color: $base-color

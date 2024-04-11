@@ -1,0 +1,92 @@
+/*******************************************************/
+/******************  13. Counter Area ******************/
+/*******************************************************/
+.counter-item
+    transition: 0.5s
+    background: white
+    padding: 40px 30px
+    border-radius: 7px
+    margin-bottom: 30px
+    border: 1px solid white
+    box-shadow: 10px 0 60px rgba(132, 132, 132, 0.1)
+    .icon
+        line-height: 1
+        margin-bottom: 15px
+        color: $primary-color
+    p
+        font-size: 20px
+        margin-bottom: 25px
+    .count-text
+        line-height: 1
+        font-size: 48px
+        font-weight: 500
+        display: inline-block
+        padding-bottom: 38px
+        position: relative
+        color: $heading-color
+        &.k-plus
+            &:after
+                content: 'k+'
+        &.plus
+            &:after
+                content: '+'
+        &:before
+            position: absolute
+            content: ''
+            left: 0
+            bottom: 0
+            transition: 0.5s
+            +size(70px, 2px)
+            background: #e7e7e7
+    &:hover
+        border-color: $primary-color
+        .count-text
+            &:before
+                background: #43c1ab
+    &.style-two
+        overflow: hidden
+        background: transparent
+        border-color: rgba(255, 255, 255, 0.1)
+        +overlay($bg-gradient, 0)
+        &:before
+            transition: 0.5s
+        &:after
+            content: ''
+            width: 70%
+            opacity: 0
+            z-index: -1
+            right: 30px
+            bottom: 25px
+            transition: 0.5s
+            padding-top: 70%
+            position: absolute
+            border-radius: 50%
+            background: rgba(255, 255, 255, 0.12)
+        .icon,
+        .count-text
+            transition: 0.5s
+            background: $bg-gradient
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+        .count-text
+            &:before
+                background: $bg-gradient
+        p
+            color: white
+        &:hover
+            &:after,
+            &:before
+                opacity: 1
+            .icon,
+            .count-text
+                -webkit-text-fill-color: white
+            .count-text
+                &:before
+                    background: white
+                
+/* Team Pege Counter */
+.team-page-counter
+    .faq-counter
+        margin-top: 0
+        margin-bottom: 0
+        transform: translateY(0)

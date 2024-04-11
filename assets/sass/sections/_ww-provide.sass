@@ -1,0 +1,48 @@
+/*******************************************************/
+/*****************  11. What We Provide ****************/
+/*******************************************************/
+.what-we-provide
+    background-repeat: no-repeat
+    background-position: left bottom
+.what-we-provide-active
+    +gapLR(margin, -15px)
+    .what-we-provide-item
+        +gapLR(margin, 15px)
+        margin-top: 30px
+    .slick-dots
+        padding-top: 20px
+        
+.what-we-provide-item
+    padding: 30px
+    transition: 0.5s
+    background: white
+    text-align: center
+    border-radius: 5px
+    margin-bottom: 30px
+    +overlay($bg-gradient, 0)
+    &:before
+        transition: 0.5s
+        border-radius: 5px
+    i
+        line-height: 1
+        font-size: 75px
+        transition: 0.5s
+        margin-bottom: 10px
+        display: inline-block
+        background: $bg-gradient
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+    h6
+        transition: 0.5s
+        margin-bottom: 0
+    &:hover
+        transform: translateY(-15px)
+        i, h6, h6 a
+            color: white
+        i
+            -webkit-text-fill-color: white
+        &:before
+            opacity: 1
+    &.hover-two
+        &:hover
+            margin-top: 15px

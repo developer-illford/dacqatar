@@ -1,0 +1,335 @@
+/*******************************************************/
+/******************  12. Services Area *****************/
+/*******************************************************/
+.services-area
+    +res-ab(lb)
+        +gapLR(padding, 55px)
+.service-content
+    +res-bl(lb)
+        padding-right: 0
+        padding-left: 50px
+    +res-bl(lg)
+        padding-right: 50px
+    +res-bl(ms)
+        +gapLR(padding, 25px)
+    .sub-title
+        color: #43c1ab
+    .circle-shapes
+        &:after,
+        &:before
+            display: none
+.circle-shapes.no-animation
+    .shape-inner
+        animation: none
+.service-item
+    z-index: 1
+    margin: -1px
+    position: relative
+    padding: 80px 100px
+    border: 1px solid rgba(255, 255, 255, 0.08)
+    +res-bl(lb)
+        padding: 50px
+    +res-bl(ms)
+        +gapLR(padding, 25px)
+    .bg-image
+        +size(100%)
+        left: 0
+        top: 0
+        opacity: 0
+        transition: 0.5s
+        background-size: cover
+        +overlay($bg-gradient, 0.95)
+        position: absolute
+        z-index: -1
+        
+    .icon
+        line-height: 1
+        font-size: 65px
+        margin-bottom: 25px
+        background: $bg-gradient
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        +res-bl(xs)
+            font-size: 55px
+    h3
+        transition: 0.5s
+        margin-bottom: 20px
+        a
+            &:hover
+                text-decoration: underline
+    p
+        transition: 0.5s
+        margin-top: 15px
+    &:hover
+        .bg-image
+            opacity: 1
+        p,
+        h3,
+        h3 a,
+        .read-more,
+        .read-more i
+            color: white
+        .icon
+            -webkit-text-fill-color: white
+    &.style-two
+        padding: 35px 30px
+        margin-bottom: 30px
+        +res-bl(xs)
+            +gapLR(padding, 15px)
+        .icon
+            font-size: 50px
+            margin-bottom: 12px
+        h4
+            font-size: 22px
+            margin-bottom: 0
+        p
+            margin-bottom: 0
+        &:hover
+            .icon
+                -webkit-text-fill-color: transparent
+            p
+                color: #b8b8b8
+    &.style-three
+        overflow: hidden
+        border-radius: 5px
+        padding: 40px 35px
+        margin-bottom: 30px
+        .icon
+            font-size: 50px
+            margin-bottom: 15px
+        h5
+            font-size: 22px
+        p
+            margin-bottom: 0
+                
+/* Services Two */
+.services-tab-area
+    .tab-btns-one
+        .nav-link
+            padding-top: 22px
+            padding-bottom: 22px
+            justify-content: center
+            border-top: 1px solid rgba(0, 0, 0, 0.1)
+            &.active
+                border-bottom-color: $primary-color
+.service-two-image
+    +res-ab(xl)
+        margin-right: -30px
+.service-two-content
+    +res-ab(xl)
+        max-width: 390px
+        margin-left: auto
+    h3
+        line-height: 1.43
+        margin-bottom: 20px
+        +res-ab(ms)
+            font-size: 35px
+            
+/* Services Two */
+.service-item-two
+    transition: 0.5s
+    border-radius: 5px
+    margin-bottom: 30px
+    padding: 30px 50px 35px
+    border: 1px solid $border-color
+    +res-ab(ms)
+        display: flex
+    +res-bt(lg, xl)
+        +gapLR(padding, 35px)
+    +res-bl(sm)
+        +gapLR(padding, 35px)
+    +res-bl(xs)
+        +gapLR(padding, 25px)
+    .icon
+        flex: none
+        font-size: 66px
+        margin: 8px 30px 15px 0
+        background: $bg-gradient
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        +res-bl(xs)
+            font-size: 50px
+    h3
+        +res-bl(xs)
+            font-size: 22px
+    &:hover,
+    &.style-two
+        border-color: white
+        box-shadow: 10px 0 60px rgba(132, 132, 132, 0.1)
+    &.style-two
+        .content
+            h4
+                margin-bottom: 5px
+            p
+                margin-bottom: 0
+            
+/* Services Three */
+.services-three-area
+    position: relative
+    z-index: 1
+    &:before
+        content: ''
+        left: 0
+        bottom: 0
+        z-index: -1
+        +size(100%, 140%)
+        position: absolute
+        background: $heading-color
+.service-item-three
+    border-radius: 7px
+    padding: 40px 30px
+    transition: 0.5s
+    text-align: center
+    margin-bottom: 30px
+    background: #0d0d0d
+    border: 1px solid rgba(255, 255, 255, 0.2)
+    .icon
+        padding: 15px 35px
+        border-radius: 50%
+        margin-bottom: 30px
+        display: inline-block
+        background: rgba(255, 255, 255, 0.1)
+    h5
+        font-size: 22px
+        a
+            color: white
+            &:hover
+                color: #feb47b
+                text-decoration: underline
+    p
+        color: #b8b8b8
+        margin-bottom: 10px
+    .read-more
+        &:hover
+            color: #feb47b
+            i
+                color: #feb47b
+    &:hover
+        border-color: #feb47b
+    
+/* Services Four */
+.services-four-slider
+    +gapLR(margin, -15px)
+    .service-item-four
+        +gapLR(margin, 15px)
+    .slick-dots
+        margin-top: 30px
+.service-item-four
+    text-align: center
+    margin-bottom: 30px
+    .image
+        img
+            width: 100%
+    .content
+        padding: 35px 35px 40px
+        box-shadow: 5px 5px 15px rgba(132, 132, 132, 0.1)
+        +res-bl(xs)
+            +gapLR(padding, 20px)
+        .theme-btn
+            width: 100%
+            margin-top: 10px
+    
+/* Feature */
+.feature-item
+    padding: 25px 40px
+    margin-bottom: 30px
+    box-shadow: 10px 0 60px rgba(132, 132, 132, 0.1)
+    +res-ab(xs)
+        display: flex
+    +res-bl(ms)
+        +gapLR(padding, 25px)
+    .icon
+        font-size: 45px
+        color: $primary-color
+        margin: 5px 22px 20px 0
+    .content
+        h5
+            font-size: 22px
+        p
+            margin-bottom: 0
+            
+            
+/* Why choose therr */
+.why-choose-three
+    overflow: hidden
+    &.text-white
+        .sub-title
+            color: #feb47b
+    .circle-shapes
+        width: 50%
+        padding-top: 30%
+        
+/* Services Page */
+.circle-progress-item
+    margin-bottom: 30px
+    h5
+        margin: 10px 0 0
+        font-size: 18px
+.circle-progress-inner
+    position: relative
+    width: max-content
+    h3
+        +abs-middle()
+        
+.why-choose-services-images
+    position: relative
+    z-index: 1
+    padding: 15% 20% 10% 15%
+    .image-two
+        position: absolute
+        left: 0
+        top: 0
+        width: 30%
+    .image-three
+        position: absolute
+        bottom: 0
+        right: 0
+        width: 42%
+    .circle-shapes
+        left: 40%
+        
+/* Service Details */
+.service-details-content
+    .image
+        img
+            width: 100%
+    h3
+        +res-ab(lg)
+            font-size: 30px
+        +res-bl(xs)
+            font-size: 25px
+    .accordion-button
+        background: $lighter-color
+        
+.next-prev-post
+    +flexcenter(space-between)
+    +res-bl(lg)
+        flex-direction: column
+    .prev-post,
+    .next-post
+        display: flex
+        align-items: center
+        +gapLR(margin, -20px)
+        +res-bl(ms)
+            +gapLR(margin, -10px)
+        .image,
+        .content
+            +gapLR(padding, 20px)
+            +res-bl(ms)
+                +gapLR(padding, 10px)
+        h5
+            margin-bottom: 5px
+        .image
+            +res-bl(xs)
+                max-width: 45%
+    .next-post
+        text-align: right
+        justify-content: flex-end
+    .show-all
+        display: flex
+        font-size: 30px
+        +gapTB(margin, 35px)
+        color: $primary-color
+        flex-direction: column
+        i
+            margin: -10px 0

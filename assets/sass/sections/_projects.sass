@@ -1,0 +1,236 @@
+/*******************************************************/
+/******************  14. Project Area ******************/
+/*******************************************************/ 
+.project-active
+    padding-right: 100px
+    +res-bl(ms)
+        padding-right: 0
+    .project-item
+        .content
+            opacity: 0
+            transition: 0.5s
+            transition-delay: 0.5s
+            transform: translateY(-25px)
+        &.slick-active
+            .content
+                opacity: 1
+                transform: translateY(0)
+    .slick-arrow
+        right: -65px
+        font-size: 18px
+        overflow: hidden
+        +circle(white, 65px)
+        border: 1px solid rgba(0, 0, 0, 0.1)
+        +overlay($bg-gradient, 0)
+        position: absolute
+        +res-bl(xxl)
+            right: 0
+        +res-bl(ms)
+            +size(45px)
+            line-height: 45px
+        &:before
+            transition: 0.5s
+        &:hover,
+        &:focus
+            color: white
+            &:before
+                opacity: 1
+        &.project-prev
+            top: calc(50% + 8px)
+            +res-bl(ms)
+                top: 15px
+                right: 70px
+        &.project-next
+            bottom: calc(50% + 8px)
+            +res-bl(ms)
+                top: 15px
+                right: 15px
+                
+.project-item
+    position: relative
+    img
+        width: 100%
+    .content
+        position: absolute
+        width: 80%
+        left: 10%
+        bottom: 40px
+        background: white
+        padding: 20px 35px
+        border-radius: 5px
+        +flexcenter(space-between)
+        +res-bl(ms)
+            left: 5%
+            width: 90%
+            bottom: 20px
+        +res-bl(xs)
+            +gapLR(padding, 20px)
+        .text
+            h4
+                margin-bottom: 0
+                +res-bl(sm)
+                    font-size: 20px
+            span
+                font-size: 16px
+        .plus
+            color: white
+            +circle($primary-color, 45px)
+            
+.project-tab-content
+    .circle-shapes
+        left: 40%
+        
+/* Project Style Two */
+.project-page-area
+    +res-ab(xxl)
+        +gapLR(padding, 55px)
+.project-item-two
+    padding: 20px
+    margin-bottom: 30px
+    box-shadow: 10px 0 60px rgba(0, 0, 0, 0.07)
+    +res-bl(xs)
+        padding: 10px
+    img
+        width: 100%
+        margin-bottom: 25px
+    .project-content
+        margin-bottom: 5px
+        +flexcenter(space-between)
+        h5
+            margin-bottom: 0
+            +res-ab(md)
+                font-size: 22px
+        span
+            font-size: 16px
+        .plus
+            flex: none
+            +size(45px)
+            line-height: 44px
+            text-align: center
+            border-radius: 50%
+            border: 1px solid $border-color
+            &:focus,
+            &:hover
+                color: white
+                background: $primary-color
+                border-color: $primary-color
+            
+.related-project-active
+    +gapLR(margin, -15px)
+    .project-item-two
+        margin-top: 30px
+        +gapLR(margin, 15px)
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1)
+    .slick-dots
+        margin-top: 30px
+        
+/* Project Filter */
+.project-filter
+    display: flex
+    flex-wrap: wrap
+    +gapLR(margin, -5px)
+    justify-content: center
+    li
+        cursor: pointer
+        font-weight: 600
+        transition: 0.5s
+        padding: 5px 30px
+        margin: 0 5px 10px
+        border-radius: 5px
+        color: $heading-color
+        border: 1px solid $border-color
+        +res-bl(ms)
+            font-size: 16px
+        +res-bl(ms)
+            padding: 2px 20px
+        &:hover,
+        &.current
+            color: white
+            background: $primary-color
+            border-color: $primary-color
+            
+/* Project Details */
+.project-details-area
+    .image
+        img
+            width: 100%
+    .content
+        +res-ab(ms)
+            +gapLR(padding, 40px)
+.project-description
+    z-index: 2
+    position: relative
+    border-radius: 7px
+    padding: 60px 70px
+    margin-bottom: -90px
+    background: $primary-color
+    +res-bl(lg)
+        margin-bottom: 80px
+    +res-bl(ms)
+        +gapLR(padding, 25px)
+    ul
+        li
+            &:not(:last-child)
+                margin-bottom: 25px
+                padding-bottom: 25px
+                border-bottom: 1px solid rgba(255, 255, 255, 0.25)
+            span
+                color: white
+            h3
+                color: white
+                margin-bottom: 0
+                +res-bl(xs)
+                    font-size: 24px
+        
+/* Footer top projects */
+.footer-top-projects
+    display: flex
+    flex-wrap: wrap
+    +gapLR(margin, -15px)
+    justify-content: center
+    +res-bl(ms)
+        +gapLR(margin, -5px)
+    .footer-project-item
+        margin-top: 30px
+        position: relative
+        +gapLR(margin, 15px)
+        width: calc(20% - 30px)
+        +res-bl(xl)
+            width: calc(25% - 30px)
+        +res-bl(lg)
+            width: calc(33.3333% - 30px)
+        +res-bl(md)
+            width: calc(50% - 30px)
+        +res-bl(ms)
+            margin: 10px 5px 0
+            width: calc(50% - 10px)
+        img
+            width: 100%
+        .content
+            display: flex
+            padding: 30px
+            +size(100%)
+            left: 0
+            top: 0
+            opacity: 0
+            transition: 0.5s
+            position: absolute
+            align-items: flex-end
+            justify-content: center
+            background: rgba(0, 0, 0, 0.3)
+            +res-bl(ms)
+                padding: 15px
+                text-align: center
+            h6
+                color: white
+                margin-bottom: 0
+                padding: 5px 15px
+                border-radius: 5px
+                background: $bg-gradient
+                +res-bl(ms)
+                    font-size: 16px
+                a
+                    color: white
+        &:hover
+            .content
+                opacity: 1

@@ -1,0 +1,46 @@
+/*******************************************************/
+/******************  29. Main Footer *******************/
+/*******************************************************/
+.footer-area
+    .widget-title
+        font-size: 22px
+        margin-bottom: 30px
+    .widget
+        margin-bottom: 50px
+    .widget_nav_menu
+        ul
+            display: flex
+            flex-wrap: wrap
+            li
+                width: 50%
+                font-size: 16px
+                +res-bl(xs)
+                    width: 100%
+                &:not(:last-child)
+                    margin-bottom: 8px
+                a
+                    display: flex
+                    align-items: center
+                    &:before
+                        content: '\f105'
+                        margin-right: 10px
+                        font-family: 'Font Awesome 5 Pro'
+                
+    .widget_contact_info
+        li
+            color: $heading-color
+            &:not(:last-child)
+                margin-bottom: 8px
+            i
+                color: $primary-color
+                margin-right: 10px
+            a
+                &:not(:hover)
+                    color: $heading-color
+                
+.footer-bottom
+    position: relative
+    border-top: 1px solid $border-color
+    .copyright-text
+        a
+            color: $primary-color
