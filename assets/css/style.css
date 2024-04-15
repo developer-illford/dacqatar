@@ -4710,6 +4710,7 @@ h1, h2, h3, h4, h5, h6, .tab-btns-one .nav-link .title {
 .service-item {
   z-index: 1;
   margin: -1px;
+  height: 550px;
   position: relative;
   padding: 80px 100px;
   border: 1px solid rgba(255, 255, 255, 0.08); }
