@@ -1,49 +1,6 @@
-/*----------------------------------------------------------------------
-    Template Name: Printco - Printing Company and Service Html Template
-    Template URI: https://webtend.net/demo/html/printco/
-    Author: WebTend
-    Author URI:  https://webtend.net/
-    Version: 1.0
 
-    Note: This is Main Style CSS File. */
-/*----------------------------------------------------------------------
-	CSS INDEX
-	----------------------
-
-    01. Default Style
-    02. Common Classes
-    03. Repeat Style
-    04. Padding Margin
-    05. Custom Animation
-    06. Main Header
-    07. PopUp Search
-    08. Hero Area
-    09. Banner Area
-    10. About Area
-    11. What We Provide
-    12. Services Area
-    13. Counter Area
-    14. Project Area
-    15. CTA Area
-    16. Testimonials
-    17. Pricing Area
-    18. Blog Area
-    19. Shop Area
-    20. All Widgets
-    21. Category Area
-    22. Offers Area
-    23. Work Step
-    24. FAQ Area
-    25. Team Member
-    26. Skills Area
-    27. Contact Area
-    28. 404 Error
-    29. Main Footer */
-/* -------------------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap");
-/*******************************************************/
-/******************* 01. Default Style *****************/
-/*******************************************************/
+
 * {
   margin: 0;
   padding: 0;
