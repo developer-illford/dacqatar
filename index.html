@@ -203,9 +203,61 @@
 
 
         <!-- hero Area start -->
-        <div class="hero-area pt-145 pb-75 rel z-1">
-            <div class="container">
-                <div class="row align-items-center">
+        <div class="hero-area  pb-0 rel z-1">
+            <section class="landing-section">
+                <div class="home-slideshow_wrapper"></div>
+                <div class="home-slideshow_textContainer">
+                    <div class="home-slideshow_text">
+                        <h3>We are DAC</h3>
+                        <h2>The Dubai Advertising Company</h2>
+                        <h5>"Transforming Ideas into Unforgettable Campaigns"</h5>
+                        <h6><i class="far fa-long-arrow-right"></i>&nbsp;&nbsp;Quality service provider</h6>
+                        <h6><i class="far fa-long-arrow-right"></i>&nbsp;&nbsp;Advertising , Designing And Printing</h6>
+                        <button class="hero_cta_button">Talk With US&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></button>
+                        <button class="hero_cta_button">Latest Projects&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="home-slideshow">
+                    <div class="home-slide-img active">
+                        <img src="assets/images/10-year-head.png" alt="">
+                    </div>
+                    <div class="home-slide-img">
+                        <img src="assets/images/head_img1.png" alt="">
+                    </div>
+                    <div class="home-slide-img">
+                        <img src="assets/images/head-img2.png" alt="">
+                    </div>
+                    <div class="home-slide-img">
+                        <img src="assets/images/head-img3.png" alt="">
+                    </div>
+                    <div class="home-slide-img">
+                        <img src="assets/images/head-img4.png" alt="">
+                    </div>
+                </div>
+
+            </section>
+
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    let slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                        let slides = document.getElementsByClassName("home-slide-img");
+                        for (let i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        slideIndex++;
+                        if (slideIndex >= slides.length) {
+                            slideIndex = 0;
+                        }
+                        slides[slideIndex].style.display = "block";
+                        setTimeout(showSlides, 4000); // Change slide every 5 seconds (adjust as needed)
+                    }
+                });
+
+            </script>
+            <!-- <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="hero-content rmb-55 wow fadeInUp delay-0-2s">
                             <span class="sub-title mb-15">We're DAC</span>
@@ -226,8 +278,7 @@
                     <div class="col-lg-6">
                         <div class="hero-images wow fadeInLeft delay-0-2s">
                             <img style="border-radius: 1rem;" class="w-100" src="assets/images/Home head 451x535.png" alt="Hero Image">
-                            <!-- <img style="width: 80%;" class="image-one wow fadeInRight delay-0-6s" src="assets/images/hero_png_02.png"
-                                alt="Hero Image"> -->
+                            
                             <img style="width: 30%;" class="image-two wow fadeInDown delay-0-8s" src="assets/images/hero_png_01.png"
                                 alt="Hero Image">
                             <div class="circle-shapes">
@@ -241,8 +292,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </div> -->
         </div>
         <!-- hero Area end -->
 
@@ -1083,7 +1133,7 @@
                                 <li><a href="">Services</a></li>
                                 <li><a href="">Careers</a></li>
                                 <li><a href="">Contact Us</a></li>
-                                
+
                             </ul>
                         </div>
                     </div>
@@ -1092,12 +1142,16 @@
                             <h4 class="widget-title">Contact</h4>
                             <p>Need MOre Audience!! <br> Let's Work Together?</p>
                             <ul>
-                                <li style="font-size: 80%;"><i class="far fa-map-marker-alt"></i>Dubai Advertising Company W.L.L, Building No. 65, Street No. 3083, Zone No. 91, Birkat Al Awamer Doha, Qatar</li>
+                                <li style="font-size: 80%;"><i class="far fa-map-marker-alt"></i>Dubai Advertising
+                                    Company W.L.L, Building No. 65, Street No. 3083, Zone No. 91, Birkat Al Awamer Doha,
+                                    Qatar</li>
                                 <li style="font-size: 80%;"><i class="far fa-envelope"></i> <a
                                         href="mailto:qatardac@gmail.com">qatardac@gmail.com</a></li>
-                                <li style="font-size: 80%;"><i class="far fa-phone"></i> <a href="calto:+974 4468 4262">+974 4468 4262</a>
+                                <li style="font-size: 80%;"><i class="far fa-phone"></i> <a
+                                        href="calto:+974 4468 4262">+974 4468 4262</a>
                                 </li>
-                                <li style="font-size: 80%;"><i class="far fa-phone"></i> <a href="calto:+974 665 66429">+974 665 66429 / 666 370 95</a>
+                                <li style="font-size: 80%;"><i class="far fa-phone"></i> <a
+                                        href="calto:+974 665 66429">+974 665 66429 / 666 370 95</a>
                                 </li>
                             </ul>
                         </div>
@@ -1108,7 +1162,7 @@
                         <div class="col-lg-12">
                             <div class="copyright-text text-center text-lg-start">
                                 <p><a href="index.html">Dubai Advertising Company</a> © Copyright 2024, Al Right
-                                    Reserved  &nbsp; &nbsp; &nbsp; Designed and Developed by: Illford Digital</p>
+                                    Reserved &nbsp; &nbsp; &nbsp; Designed and Developed by: Illford Digital</p>
                             </div>
                         </div>
                         <!-- <div class="col-lg-6">
