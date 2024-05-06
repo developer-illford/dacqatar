@@ -6625,8 +6625,9 @@ h6,
   margin: -1px;
   height: 550px;
   position: relative;
-  padding: 80px 100px;
+  padding: 40px 70px;
   border: 1px solid rgba(255, 255, 255, 0.08);
+  background-color: #000000;
 }
 
 @media only screen and (max-width: 1599px) {
@@ -6691,11 +6692,12 @@ h6,
   }
 }
 
-.service-item h3 {
+.service-item h3 a{
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   margin-bottom: 20px;
+  color: #ffffff;
 }
 
 .service-item h3 a:hover {
@@ -12088,4 +12090,100 @@ h6,
 
 .hero-area {
   padding-top: 145px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* whatsapp */
+
+.floating_btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  z-index: 1000;
+}
+
+@keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+  }
+}
+
+.contact_icon {
+  background-color: #1dc96a;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  font-size:30px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translatey(0px);
+  animation: pulse 1.5s infinite;
+  box-shadow: 0 0 0 0 #42db87;
+  -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  font-weight: normal;
+  font-family: sans-serif;
+  text-decoration: none !important;
+  transition: all 300ms ease-in-out;
+}
+
+
+.text_icon {
+  margin-top: 8px;
+  color: #707070;
+  font-size: 13px;
+}
+
+
+.floating_btn1 {
+  position: fixed;
+  top: 165px; /* Initial position */
+  right: 30px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: floatAnimation 3s ease-in-out infinite alternate; /* Animation */
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0); /* Initial position */
+  }
+  50% {
+    transform: translateY(-10px); /* Move up */
+  }
+  100% {
+    transform: translateY(0); /* Return to initial position */
+  }
 }

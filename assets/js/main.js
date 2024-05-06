@@ -440,6 +440,12 @@
                 slidesToShow: 3,
                 responsive: [
                     {
+                        breakpoint: 1199,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    },
+                    {
                         breakpoint: 991,
                         settings: {
                             slidesToShow: 2,
