@@ -1,35 +1,34 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Get form data
-    $name = $_POST["text"];
-    $email = $_POST["email"];
-    $message = $_POST["message"];
-    $headers = "New message";
+    // Email configuration
+    $to = " qatardac@gmail.com";
+    $subject = "Message from " . $_POST["name"];
+    $message = "Name: " . $_POST["name"] . "\n";
+    $message .= "Email: " . $_POST["email"] . "\n";
+    $message .= "Message: " . $_POST["message"];
 
-    // Set recipient email
-    $to = "manastom670@gmail.com";
+    // Additional headers for the main email
+    $headers = "From: " . $_POST["email"] . "\r\n";
+    $headers .= "Reply-To: " . $_POST["email"] . "\r\n";
+    $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
-    // Email subject
-    $subject = "New message from $name";
+    // Sending email to main recipient
+    if (mail($to, $subject, $message, $headers)) {
+        // Additional headers for the reply email
+        $reply_subject = "Thank you for your message";
+        $reply_message = "Dear " . $_POST["name"] . ",\n\n";
+        $reply_message .= "Thank you for contacting us. We have received your message and will get back to you as soon as possible.\n\n";
+        $reply_message .= "Best Regards,\nTeam DAC";
 
-    // Email content
-    $email_content = "Name: $name\n";
-    $email_content .= "Email: $email\n";
-    $email_content .= "Message:\n$message\n";
+        // Sending reply email
+        mail($_POST["email"], $reply_subject, $reply_message, $headers);
 
-    // Send email
-    mail($to, $headers, $subject, $email_content);
-
-    // Reply email to sender
-    $reply_subject = "Thank you for your message";
-    $reply_message = "Dear $name,\n\nThank you for contacting us! We have received your message and will get back to you as soon as possible.\n\nBest regards,\nThe DAC Team";
-    mail($email, $reply_subject, $reply_message);
-
-    // Success message
-    echo "Thank you for your message!";
+        echo "Your message has been sent successfully.";
+    } else {
+        echo "Failed to send message. Please try again later.";
+    }
 } else {
-    // If not a POST request, redirect to the form page
-    header("Location: ".$_SERVER["PHP_SELF"]);
-    exit;
+    echo "Invalid request.";
 }
+
 ?>
