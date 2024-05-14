@@ -4636,7 +4636,7 @@ h6,
   -webkit-transform: scale(0) rotate(-33deg);
   -ms-transform: scale(0) rotate(-33deg);
   transform: scale(0) rotate(-33deg);
-  background: url(../images/shapes/menu-bg.png) no-repeat 100%/100%;
+  background: url(../images/shapes/menu-bg.webp) no-repeat 100%/100%;
 }
 
 @media only screen and (max-width: 991px) {
@@ -12222,7 +12222,7 @@ h6,
   border-radius: 50%;
   background-color: #be9e6600;
   animation: spin 2s linear infinite;
-  background-image: url(../images/icon_10_year.png);
+  background-image: url(../images/icon_10_year.webp);
   background-size: 100% 100%;
   background-position: center;
   background-blend-mode: overlay;

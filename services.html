@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DAC - Services</title>
-    <link rel=icon href="assets/images/favicon.png" sizes="20x20" type="image/png">
+    <link rel=icon href="assets/images/favicon.webp" sizes="20x20" type="image/png">
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -39,15 +39,15 @@
 
                 <!--Appointment Form-->
                 <div class="appointment-form">
-                    <form method="post" action="">
+                    <form method="post" action="sidebar.php">
                         <div class="form-group">
-                            <input type="text" name="text" value="" placeholder="Name" required>
+                            <input id="name" type="text" name="name" value="" placeholder="Name" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" name="email" value="" placeholder="Email Address" required>
+                            <input id="email" type="email" name="email" value="" placeholder="Email Address" required>
                         </div>
                         <div class="form-group">
-                            <textarea placeholder="Message" rows="5"></textarea>
+                            <textarea id="message" name="message" placeholder="Message" rows="5"></textarea>
                         </div>
                         <div class="form-group">
                             <button type="submit" class="theme-btn">Submit now</button>
@@ -58,8 +58,8 @@
                 <!--Social Icons-->
                 <div class="social-style-one">
                     <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/dubaiadvertisingco"><i class="fab fa-facebook-f"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/dac_qatar/"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
@@ -77,7 +77,7 @@
                     </button>
                 </div>
                 <div class="logo">
-                    <a href="index.html"><img src="assets/images/Dac LOGO black.png" alt="img"></a>
+                    <a href="index.html"><img src="assets/images/Dac LOGO black.webp" alt="img"></a>
                 </div>
                 <div class="nav-right-part nav-right-part-mobile">
                     <a class="search-bar-btn" href="#">
@@ -114,7 +114,7 @@
 
         <!-- Page Banner Start -->
         <section class="page-banner bgs-cover text-white pt-65 pb-75"
-            style="background-image: url(assets/images/about_banner.png);">
+            style="background-image: url(assets/images/about_banner.webp);">
             <div class="container">
                 <div class="banner-inner">
                     <h2 class="page-title wow fadeInUp delay-0-2s">Services</h2>
@@ -145,7 +145,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/digital-signage icon.png" alt="">
+                                <img src="assets/images/digital-signage icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Digital Signages</a></h3>
@@ -159,7 +159,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/acp cladding icon.png" alt="">
+                                <img src="assets/images/acp cladding icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">ACP Cladding</a></h3>
@@ -173,7 +173,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/flex banner icon.png" alt="">
+                                <img src="assets/images/flex banner icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Flex Banner</a></h3>
@@ -188,7 +188,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/hoarding icon.png" alt="">
+                                <img src="assets/images/hoarding icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Hoardings</a></h3>
@@ -203,7 +203,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/traffic icon.png" alt="">
+                                <img src="assets/images/traffic icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Traffic & Construction Signs</a></h3>
@@ -216,7 +216,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/printing icon.png" alt="">
+                                <img src="assets/images/printing icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Printing Solutions</a></h3>
@@ -232,7 +232,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/uv fabric icon.png" alt="">
+                                <img src="assets/images/uv fabric icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Large Format UV Fabric Pring</a></h3>
@@ -245,7 +245,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/flatboard icon.png" alt="">
+                                <img src="assets/images/flatboard icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Flat Bed UV Printing</a></h3>
@@ -259,7 +259,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/vinyl-printer icon.png" alt="">
+                                <img src="assets/images/vinyl-printer icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Vinyl Print & Plotting</a></h3>
@@ -272,7 +272,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/branding collateral icon.png" alt="">
+                                <img src="assets/images/branding collateral icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Branding Collaterals</a></h3>
@@ -285,7 +285,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/brandlaunch icon.png" alt="">
+                                <img src="assets/images/brandlaunch icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Brand Launching</a></h3>
@@ -302,7 +302,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/promotionalCampaign icon.png" alt="">
+                                <img src="assets/images/promotionalCampaign icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Promotional & Brand Capmaigns</a></h3>
@@ -318,7 +318,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/wall branding icon.png" alt="">
+                                <img src="assets/images/wall branding icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Wall &Window Branding</a></h3>
@@ -334,7 +334,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/podium icon.png" alt="">
+                                <img src="assets/images/podium icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Display Stands & Podiums</a></h3>
@@ -349,7 +349,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/kiosk icon.png" alt="">
+                                <img src="assets/images/kiosk icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Retails Kiosks</a></h3>
@@ -364,7 +364,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/lightbox icon.png" alt="">
+                                <img src="assets/images/lightbox icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Lightbox Display Stand</a></h3>
@@ -380,7 +380,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/roadshow icon.png" alt="">
+                                <img src="assets/images/roadshow icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Brand Road Shows</a></h3>
@@ -394,7 +394,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/counter icon.png" alt="">
+                                <img src="assets/images/counter icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Temporary Counters</a></h3>
@@ -407,7 +407,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/acrylic icon.png" alt="">
+                                <img src="assets/images/acrylic icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Acrylic Fabrication</a></h3>
@@ -421,7 +421,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/ad-pop-up icon.png" alt="">
+                                <img src="assets/images/ad-pop-up icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Popup Banners & Backdrops</a></h3>
@@ -435,7 +435,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/decoration icon.png" alt="">
+                                <img src="assets/images/decoration icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Retail Fitout & Decoration</a></h3>
@@ -451,7 +451,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/exhibition icon.png" alt="">
+                                <img src="assets/images/exhibition icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Exhibition Stalls</a></h3>
@@ -467,7 +467,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/vehicle graphics icon.png" alt="">
+                                <img src="assets/images/vehicle graphics icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Vehicle Graphics</a></h3>
@@ -484,7 +484,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/gift icon.png" alt="">
+                                <img src="assets/images/gift icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Promotional Gift Materials</a></h3>
@@ -502,7 +502,7 @@
                     <div class="col-lg-6">
                         <div class="service-item-two wow fadeInUp delay-0-2s">
                             <div class="icon">
-                                <img src="assets/images/cnc icon.png" alt="">
+                                <img src="assets/images/cnc icon.webp" alt="">
                             </div>
                             <div class="content">
                                 <h3><a href="service-details.html">Laser & CNC Cutting</a></h3>
@@ -644,7 +644,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="faq-image wow fadeInUp delay-0-4s">
-                            <img src="assets/images/faq/faq-image.png" alt="FAQ">
+                            <img src="assets/images/faq/faq-image.webp" alt="FAQ">
                         </div>
                     </div>
                 </div>
@@ -669,7 +669,7 @@
                         <div class="pricing-plan-item wow fadeInUp delay-0-2s">
                             <h4 class="title">Regular Plan</h4>
                             <div class="image">
-                                <img src="assets/images/pricing/pricing-plan-1.png" alt="Pricing">
+                                <img src="assets/images/pricing/pricing-plan-1.webp" alt="Pricing">
                             </div>
                             <ul>
                                 <li>Design & Printing <i class="fas fa-check"></i></li>
@@ -687,7 +687,7 @@
                         <div class="pricing-plan-item wow fadeInUp delay-0-4s">
                             <h4 class="title">Standard Plan</h4>
                             <div class="image">
-                                <img src="assets/images/pricing/pricing-plan-2.png" alt="Pricing">
+                                <img src="assets/images/pricing/pricing-plan-2.webp" alt="Pricing">
                             </div>
                             <ul>
                                 <li>Design & Printing <i class="fas fa-check"></i></li>
@@ -705,7 +705,7 @@
                         <div class="pricing-plan-item wow fadeInUp delay-0-6s">
                             <h4 class="title">Silver Plan</h4>
                             <div class="image">
-                                <img src="assets/images/pricing/pricing-plan-3.png" alt="Pricing">
+                                <img src="assets/images/pricing/pricing-plan-3.webp" alt="Pricing">
                             </div>
                             <ul>
                                 <li>Design & Printing <i class="fas fa-check"></i></li>
@@ -730,7 +730,7 @@
             <div class="row">
                 <div class="col-xl-4">
                     <div class="cta-left-image rel z-1 wow fadeInLeft delay-0-4s">
-                        <img src="assets/images/gchv@3x@3x.png" alt="CTA Left">
+                        <img src="assets/images/gchv@3x@3x.webp" alt="CTA Left">
                         <div class="circle-shapes white-shape no-animation">
                             <div class="shape-inner">
                                 <span class="dot-one"></span>
@@ -754,7 +754,7 @@
                 </div>
                 <div class="col-xl-4">
                     <div class="cta-right-image rel z-1 wow fadeInRight delay-0-2s">
-                        <img style="margin-top: 20%;" src="assets/images/vehicle  mock.png" alt="CTA Right">
+                        <img style="margin-top: 20%;" src="assets/images/vehicle  mock.webp" alt="CTA Right">
                         <div class="circle-shapes white-shape no-animation">
                             <div class="shape-inner">
                                 <span class="dot-one"></span>
@@ -777,25 +777,25 @@
 
                 <div class="footer-top-projects">
                     <div class="footer-project-item wow fadeInUp delay-0-2s">
-                        <img src="assets/images/6.png" alt="Gallery">
+                        <img src="assets/images/6.webp" alt="Gallery">
                         <div class="content">
                             <!-- <h6><a href="project-details.html">Card Printing</a></h6> -->
                         </div>
                     </div>
                     <div class="footer-project-item wow fadeInUp delay-0-3s">
-                        <img src="assets/images/7.png" alt="Gallery">
+                        <img src="assets/images/7.webp" alt="Gallery">
                         <div class="content">
                             <!-- <h6><a href="project-details.html">Card Printing</a></h6> -->
                         </div>
                     </div>
                     <div class="footer-project-item wow fadeInUp delay-0-4s">
-                        <img src="assets/images/8.png" alt="Gallery">
+                        <img src="assets/images/8.webp" alt="Gallery">
                         <div class="content">
                             <!-- <h6><a href="project-details.html">Card Printing</a></h6> -->
                         </div>
                     </div>
                     <div class="footer-project-item wow fadeInUp delay-0-5s">
-                        <img src="assets/images/9.png" alt="Gallery">
+                        <img src="assets/images/9.webp" alt="Gallery">
                         <div class="content">
                             <!-- <h6><a href="project-details.html">Card Printing</a></h6> -->
                         </div>
@@ -818,16 +818,16 @@
                     <div class="col-xl-4 col-lg-5 col-md-6">
                         <div class="widget widget_about wow fadeInUp delay-0-2s">
                             <div class="footer-logo mb-25">
-                                <a href="index.html"><img style="width: 30%;" src="assets/images/dac logo round.png"
+                                <a href="index.html"><img style="width: 30%;" src="assets/images/dac logo round.webp"
                                         alt="Logo"></a>
                             </div>
                             <p>"Empowering brands to connect with their ideal audience - DAC: Your gateway to
                                 advertising success."</p>
                             <div class="social-style-two mt-15">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a target="_blank" href="https://www.facebook.com/dubaiadvertisingco"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
                                 <a href="#"><i class="fab fa-whatsapp"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/dac_qatar/"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -871,12 +871,12 @@
                         <div class="col-lg-12">
                             <div class="copyright-text text-center text-lg-start">
                                 <p><a href="index.html">Dubai Advertising Company</a> © Copyright 2024, Al Right
-                                    Reserved &nbsp; &nbsp; &nbsp; Designed and Developed by: Illford Digital</p>
+                                    Reserved &nbsp; &nbsp; &nbsp; Designed and Developed by: <a target="_blank" href="https://illforddigital.com/">Illford Digital</a></p>
                             </div>
                         </div>
                         <!-- <div class="col-lg-6">
                             <div class="payment-method-image mb-15 text-center text-lg-end">
-                                <a href="#"><img src="assets/images/footer/payment-method.png" alt="Payment Method"></a>
+                                <a href="#"><img src="assets/images/footer/payment-method.webp" alt="Payment Method"></a>
                             </div>
                         </div> -->
                     </div>
