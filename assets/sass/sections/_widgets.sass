@@ -1,0 +1,310 @@
+/*******************************************************/
+/******************  20. All Widgets *******************/
+/*******************************************************/
+/* Blog Sidebar */
+.blog-sidebar
+    .widget
+        &:not(:last-child)
+            margin-bottom: 60px
+    .widget-title
+        margin-top: -10px
+        position: relative
+        margin-bottom: 35px
+        padding-bottom: 22px
+        border-bottom: 1px solid $border-color
+        &:after
+            content: ''
+            left: 0
+            bottom: 0
+            +size(85px, 1px)
+            position: absolute
+            background: $primary-color
+    .widget-search
+        .widget-title
+            padding-bottom: 0
+            margin-bottom: 20px
+            border-bottom: none
+            &:after
+                display: none
+        padding: 40px
+        border-radius: 5px
+        border: 1px solid $border-color
+        +res-bl(xs)
+            +gapLR(padding, 25px)
+        form
+            +gapTB(padding, 15px)
+            background: $lighter-color
+            border-color: $lighter-color
+            input
+                background: transparent
+    .widget-category
+        ul
+            li
+                display: flex
+                align-items: center
+                padding-bottom: 17px
+                border-bottom: 1px solid $border-color
+                &:before
+                    content: ''
+                    +size(5px)
+                    opacity: 0.25
+                    background: black
+                    border-radius: 50%
+                    margin-right: 15px
+                &:not(:last-child)
+                    margin-bottom: 17px
+                a
+                    margin-right: auto
+                span
+                    margin-left: 5px
+    .widget-recent-post
+        ul
+            li
+                display: flex
+                align-items: center
+                padding-bottom: 30px
+                border-bottom: 1px solid $border-color
+                &:not(:last-child)
+                    margin-bottom: 30px
+                .image
+                    flex: none
+                    max-width: 100px
+                    margin-right: 30px
+                    +res-bl(xs)
+                        max-width: 90px
+                        margin-right: 20px
+                .content
+                    h6
+                        margin-bottom: 2px
+                        +res-bl(xs)
+                            font-size: 16px
+                    .admin
+                        font-size: 16px
+                        a
+                            color: $primary-color
+    .widget-tag-cloud
+        .tags
+            a
+                font-size: 16px
+                padding: 5px 20px
+                    
+/* Service Sidebar */
+.service-sidebar
+    .widget
+        &:not(:last-child)
+            margin-bottom: 50px
+    .widget-title
+        margin-bottom: 30px
+    .widget-category
+        ul
+            li
+                &:not(:last-child)
+                    margin-bottom: 10px
+                a
+                    font-weight: 500
+                    padding: 13px 30px
+                    border-radius: 5px
+                    +flexcenter(space-between)
+                    border: 1px solid $border-color
+                    &:after
+                        content: '\f178'
+                        font-family: 'Font Awesome 5 Pro'
+                    &:hover
+                        color: white
+                        background: $primary-color
+                        border-color: $primary-color
+    .widget-download
+        border-radius: 5px
+        padding: 40px 35px
+        background: $heading-color
+        .widget-title
+            color: white
+            margin-bottom: 25px
+            &:before
+                color: white
+        .theme-btn
+            display: flex
+            color: #b8b8b8
+            justify-content: space-between
+            border-color: rgba(255, 255, 255, 0.2)
+        .social-style-two
+            a
+                +size(35px)
+                color: white
+                font-size: 14px
+                overflow: hidden
+                line-height: 35px
+                background: transparent
+                border: 1px solid rgba(255, 255, 255, 0.15)
+                +overlay($bg-gradient, 0)
+                &:before
+                    transition: 0.5s
+                &:hover
+                    &:before
+                        opacity: 1
+    .widget-cta
+        z-index: 1
+        overflow: hidden
+        position: relative
+        border-radius: 5px
+        text-align: center
+        padding: 40px 33px 30px
+        background: $bg-gradient
+        +res-bl(xs)
+            +gapLR(padding, 25px)
+        *
+            color: white
+        .h5
+            font-size: 20px
+            margin-bottom: 0
+        h3
+            line-height: 1.2
+        h6
+            font-size: 16px
+            margin-bottom: 20px
+        &:before
+            content: ''
+            width: 80%
+            z-index: -1
+            right: -5%
+            bottom: 30px
+            padding-top: 80%
+            position: absolute
+            border-radius: 50%
+            background: rgba(255, 255, 255, 0.1)
+            
+.before-circle
+    display: flex
+    &:before
+        margin-top: 2px
+        content: '\f2f8'
+        font-weight: 300
+        font-size: 0.95em
+        margin-right: 15px
+        color: $primary-color
+        font-family: 'Font Awesome 5 Pro'
+    
+/* Shop Sidebar */
+.shop-sidebar
+    .widget
+        &:not(:last-child)
+            margin-bottom: 45px
+    .widget-title
+        z-index: 1
+        position: relative
+        margin-bottom: 25px
+        padding-bottom: 18px
+        &:after,
+        &:before
+            height: 3px
+            content: ''
+            bottom: 0
+            z-index: -1
+            position: absolute
+            border-radius: 1.5px
+            background: $primary-color
+        &:before
+            left: 0
+            width: 35px
+        &:after
+            left: 42px
+            width: 10px
+    .widget-search
+        form
+            padding: 8px 8px 8px 20px
+            input
+                font-size: 18px
+            button
+                flex: none
+                +size(44px)
+                color: white
+                line-height: 44px
+                text-align: center
+                border-radius: 5px
+                background: $primary-color
+    .widget-category
+        ul
+            li
+                display: flex
+                font-size: 16px
+                align-items: center
+                &:before
+                    content: '\f101'
+                    margin-right: 12px
+                    font-family: 'Font Awesome 5 Pro'
+                &:not(:last-child)
+                    margin-bottom: 8px
+                a
+                    margin-right: auto
+                span
+                    margin-left: 5px
+    .widget-products
+        ul
+            li
+                display: flex
+                align-items: center
+                padding-bottom: 30px
+                border-bottom: 1px solid $border-color
+                &:not(:last-child)
+                    margin-bottom: 30px
+                .image
+                    margin-right: 25px
+                .content
+                    h5
+                        margin-bottom: 0
+                    .price
+                        font-size: 16px
+                        font-weight: 500
+    .widget-price-filter
+        padding: 30px
+        border-radius: 5px
+        box-shadow: 10px 0 60px rgba(132, 132, 132, 0.1)
+        .ui-widget
+            &.ui-widget-content
+                height: 3px
+                border: none
+                cursor: pointer
+                margin-top: 15px
+                margin-bottom: 5px
+                background: #e7e8eb
+        .ui-widget-header
+            background: $primary-color
+        .ui-state-default
+            border: none
+            top: -6px
+            margin-left: 0
+            cursor: pointer
+            +size(3px, 15px)
+            background: $primary-color
+        .price, #price
+            font-size: 18px
+            font-weight: 500
+        .price
+            +flexcenter(space-between)
+            span
+                margin-right: 5px
+                &:before
+                    content: '$'
+        #price
+            padding: 0
+            border: none
+            margin-left: 5px
+            color: $base-color
+            background: transparent
+.widget-tag-cloud
+    .tags
+        display: flex
+        flex-wrap: wrap
+        margin: 0 -10px -10px 0
+        a
+            font-size: 15px
+            font-weight: 500
+            line-height: 1.6
+            padding: 3px 15px
+            border-radius: 5px
+            color: $heading-color
+            margin: 0 10px 10px 0
+            background: $lighter-color
+            &:hover
+                color: white
+                background: $primary-color

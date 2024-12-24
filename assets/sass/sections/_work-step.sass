@@ -1,0 +1,92 @@
+/*******************************************************/
+/********************  23. Work Step *******************/
+/*******************************************************/
+.work-process-item
+    transition: 0.5s
+    background: white
+    border-radius: 7px
+    text-align: center
+    margin-bottom: 30px
+    border: 1px solid white
+    padding: 40px 30px 18px
+    box-shadow: 10px 0 60px rgba(132, 132, 132, 0.1)
+    .image
+        margin-bottom: 30px
+    .step-number
+        font-size: 14px
+        font-weight: 600
+        margin-bottom: 6px
+        letter-spacing: 5px
+        color: $primary-color
+        display: inline-block
+        text-transform: uppercase
+    h5
+        font-size: 22px
+    &.active
+        border-color: $primary-color
+        box-shadow: 10px 0 60px rgba(76, 76, 76, 0.2)
+        +res-ab(md)
+            transform: translateY(-20px)
+        
+.work-process-area
+    .container
+        position: relative
+        z-index: 1
+        &:after
+            content: ''
+            left: 0
+            bottom: 0
+            z-index: -2
+            +size(100%, 47%)
+            position: absolute
+            border-radius: 50%
+            border: 1px solid $border-color
+        
+.work-step-arrow-one,
+.work-step-arrow-two
+    position: absolute
+    transition: 0.5s
+    opacity: 0.1
+    bottom: 45%
+    z-index: -1
+    transform: translate(-50%, -50%)
+    &:hover
+        opacity: 1
+.work-step-arrow-one
+    left: 33.333%
+.work-step-arrow-two
+    left: 66.666%
+    
+/* Work Step Two */
+.work-process-two-wrap
+    .work-step-arrow-one,
+    .work-step-arrow-two
+        max-width: 32px
+        opacity: 1
+.work-process-two-item
+    padding: 30px
+    background: white
+    border-radius: 5px
+    text-align: center
+    margin-bottom: 30px
+    border: 1px solid $border-color
+    .icon
+        font-size: 65px
+        transition: 0.5s
+        margin: 0 auto 10px
+        color: $primary-color
+        +circle($lighter-color, 110px)
+        i
+            &:before
+                line-height: unset
+    .step-number
+        font-size: 14px
+        font-weight: 500
+        text-transform: uppercase
+    h5
+        margin-bottom: 0
+    &.active
+        border-color: $primary-color
+        .icon
+            color: white
+            background: $primary-color

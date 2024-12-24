@@ -1,0 +1,205 @@
+/*******************************************************/
+/*******************  08. Hero Area ********************/
+/*******************************************************/
+.hero-content
+    h1
+        font-size: 65px
+        margin-bottom: 30px
+        +res-bl(xl)
+            font-size: 50px
+        +res-bl(lg)
+            font-size: 45px
+            line-height: 1.4
+        +res-bl(md)
+            font-size: 40px
+        +res-bl(sm)
+            font-size: 35px
+        +res-bl(ms)
+            font-size: 30px
+    p
+        font-size: 20px
+        +res-bl(ms)
+            font-size: 16px
+        +res-bl(xs)
+            font-size: 15px
+.hero-btns
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    +gapLR(margin, -10px)
+    .theme-btn
+        margin: 15px 10px 0
+        
+.hero-images
+    position: relative
+    z-index: 1
+    padding: 18% 20% 10%
+    margin-right: -20%
+    +res-bl(xxl)
+        margin-right: -10%
+    +res-bl(lg)
+        margin-right: 0
+    .image-one
+        position: absolute
+        left: -7%
+        top: -3%
+        width: 48.5%
+    .image-two
+        position: absolute
+        bottom: -7%
+        right: -6%
+        width: 41%
+        
+.circle-shapes
+    position: absolute
+    +size(90%, 0)
+    z-index: -1
+    top: 50%
+    left: 50%
+    padding-top: 90%
+    transform: translate(-50%, -50%)
+    &:after,
+    &:before
+        content: ''
+        +size(100%)
+        position: absolute
+        border-radius: 50%
+        border: 1px solid rgba(0, 0, 0, 0.1)
+    &:before
+        left: 0
+        top: 3%
+        animation: 50s moveLeftRight infinite
+    &:after
+        left: 10%
+        top: -3%
+        animation: 50s slideUpDown infinite
+    .dot-one,
+    .dot-two,
+    .dot-three,
+    .dot-four,
+    .dot-five
+        +size(7px)
+        border-radius: 50%
+        position: absolute
+        animation: 3s zoomInOut infinite
+    .dot-one
+        background: #1d46dd
+        left: 30%
+        top: -5%
+    .dot-two
+        background: #01d6e3
+        left: 102%
+        top: 15%
+        animation-delay: 1s
+    .dot-three
+        background: #feb47b
+        left: 91%
+        top: 37%
+        animation-delay: 1.5s
+    .dot-four
+        background: #dd1d26
+        left: 55%
+        bottom: -5%
+        animation-delay: 2s
+    .dot-five
+        background: #01d6e3
+        left: 0
+        bottom: 25%
+        animation-delay: 2.5s
+    .shape-inner
+        +size(100%)
+        left: 0
+        top: 0
+        position: absolute
+        animation: 50s rotated_circle infinite
+        
+/* Hero Two */
+.hero-left-image,
+.hero-right-image
+    max-width: 100%
+    width: max-content
+    +gapLR(margin, auto)
+    .circle-shapes
+        width: 130%
+        padding-top: 130%
+        &:after
+            top: 0
+            left: 8%
+.hero-left-image
+    .circle-shapes
+        width: 130%
+        padding-top: 130%
+.hero-right-image
+    .circle-shapes
+        width: 120%
+        padding-top: 120%
+        
+.hero-two-content
+    +res-bl(xl)
+        margin-top: 70px
+        margin-bottom: 100px
+    .sub-title
+        color: #ff7e5f
+    h1
+        margin-bottom: 25px
+        +res-bl(lb)
+            font-size: 50px
+        +res-bl(xxl)
+            font-size: 42px
+            line-height: 1.25
+        +res-bl(ms)
+            font-size: 35px
+    p
+        +res-ab(xs)
+            font-size: 20px
+            
+/* Hero Three */
+.hero-three-area
+    overflow: hidden
+    +res-bl(ms)
+        padding-top: 105px
+    +res-bl(xs)
+        padding-top: 25px
+    .hero-left-image
+        z-index: 1
+        position: relative
+        +res-bl(xl)
+            margin-top: 150px
+            margin-bottom: 60px
+        &:after
+            content: ''
+            top: -35px
+            left: 50%
+            width: 135%
+            z-index: -1
+            padding-top: 135%
+            border-radius: 50%
+            position: absolute
+            background: $bg-gradient
+            transform: translate(-50%)
+            +res-bl(sm)
+                width: 115%
+                padding-top: 115%
+    .hero-three-content
+        +res-bl(xl)
+            margin-bottom: 100px
+        h1
+            +res-bt(xl, xxl)
+                font-size: 50px
+                line-height: 1.25
+            +res-bl(lg)
+                font-size: 42px
+            +res-bl(ms)
+                font-size: 35px
+    .hero-bg-circle
+        position: absolute
+        z-index: -1
+        left: 3%
+        top: 0
+        max-width: 25%
+        animation: 50s rotated_circle infinite
+    .row
+        > div
+            +res-bt(xl, lb)
+                flex: 0 0 auto
+                width: 33.3333%

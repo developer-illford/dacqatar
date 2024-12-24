@@ -1,0 +1,110 @@
+/*******************************************************/
+/******************  27. Contact Area ******************/
+/*******************************************************/
+.faq-contact-form
+    padding: 60px 70px
+    border-radius: 7px
+    box-shadow: 10px 0 60px rgba(132, 132, 132, 0.1)
+    +res-bl(sm)
+        +gapLR(padding, 25px)
+        
+.contact-info-wrap,
+.contact-info-content
+    height: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    border: 1px solid $border-color
+.contact-info-content
+    padding: 75px 80px
+    +res-ab(lg)
+        border-right: none
+    +res-bl(lg)
+        border-bottom: none
+    +res-bl(sm)
+        +gapLR(padding, 35px)
+    +res-bl(xs)
+        +gapLR(padding, 25px)
+    p
+        margin-bottom: 0
+.contact-info-item
+    display: flex
+    padding: 40px 80px
+    +res-bl(sm)
+        +gapLR(padding, 35px)
+    +res-bl(xs)
+        +gapLR(padding, 25px)
+    &:not(:last-child)
+        border-bottom: 1px solid $border-color
+    .icon
+        flex: none
+        color: white
+        margin-top: 5px
+        font-size: 25px
+        margin-right: 25px
+        +circle($primary-color, 60px)
+        +res-bl(xs)
+            +size(44px)
+            font-size: 16px
+            line-height: 44px
+            margin-right: 15px
+    .content
+        +res-ab(ms)
+            font-size: 20px
+        +res-bl(xs)
+            font-size: 16px
+            line-height: 1.5
+        h4
+            margin-bottom: 5px
+            +res-bl(xs)
+                font-size: 20px
+        p
+            margin-bottom: 0
+        a
+            word-break: break-all
+            
+.our-location
+    iframe
+        height: 685px
+        +res-bl(xxl)
+            height: 500px
+        +res-bl(md)
+            height: 400px
+    
+#contactForm
+    .form-group
+        label
+            position: absolute
+            z-index: 1
+            top: 13px
+            left: 0
+        .nice-select,
+        .form-control
+            border: none
+            margin-right: 0
+            border-radius: 0
+            padding-left: 30px
+            border-bottom: 1px solid $border-color
+            .list
+                width: 100%
+            .current,
+            &::placeholder
+                font-weight: 400
+                color: $base-color
+            &:focus
+                border-bottom-color: $heading-color
+    .tac-wrap
+        input
+            margin-right: 10px
+        label
+            font-weight: 400
+            display: inline
+            
+.has-error
+    .help-block.with-errors
+        color: $primary-color
+#msgSubmit
+    margin-top: 10px
+    margin-bottom: 0
+    &.hidden
+        display: none
