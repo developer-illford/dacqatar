@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&family=Ubuntu:wght@300;400&display=swap');
+
+* {
+    /* border: 1px solid red; */
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.base_container {
+    width: 90% !important;
+    margin-top: 20px !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.base_container_col1 {
+    padding: 0 !important;
+}
+
+.container {
+    width: 100% !important;
+    margin-top: 0px !important;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    background: #fff;
+    padding: 20px;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    /* box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.container h1{
+    font-family: "Outfit", sans-serif;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.featured-image {
+    width: 100%;
+    height: auto;
+}
+
+.post-title {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.post-meta {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.post-content {
+    font-size: 1.1em;
+}
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post-tags {
+    margin-top: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+.base_container_col2 h3 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.recentpost_card {
+    width: 100%;
+    height: max-content;
+    padding: 3%;
+    border-radius: 0.4rem;
+    /* box-shadow: 0 0 20px 1px rgb(0 0 0 / 28%); */
+}
+
+.recentpost_card img {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 576px) {
+
+    .container,
+    .container-sm {
+        max-width: 100% !important;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* HAMBURGER MENU FOR MOBILE */
+.hamburger {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.hamburger_button {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    outline: none;
+}
+
+.hamburger_button i {
+    font-size: 200%;
+}
+
+.hamburger_mobile_menu {
+    width: 100%;
+    height: max-content;
+    background-image: url(../img/Rectangle\ 409.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 2%;
+    display: none;
+    position: absolute;
+    z-index: 10;
+    border-radius: 0.8rem;
+}
+
+.hamburger_mobile_menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: 500;
+}
+
+.mobile_services_dropdown_container {
+    display: none;
+    padding-left: 10px;
+    /* Indent dropdown items */
+}
+
+.mobile_services_dropdown_container a {
+    font-size: 130%;
+    font-weight: 400;
+}
+
+@media (max-width: 920px) {
+    .hamburger {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* whatsapp */
+
+
+.floating_btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+}
+
+@keyframes pulsing {
+    to {
+        box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+    }
+}
+
+.contact_icon {
+    background-color: #42db87;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translatey(0px);
+    animation: pulse 1.5s infinite;
+    box-shadow: 0 0 0 0 #42db87;
+    -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    font-weight: normal;
+    font-family: sans-serif;
+    text-decoration: none !important;
+    transition: all 300ms ease-in-out;
+}
+
+
+.text_icon {
+    margin-top: 8px;
+    color: #000000;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hashtagposts {
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    /*box-shadow: 0 0 10px rgb(0 0 0 / 71%);*/
+    border-radius: 0.3rem;
+}
+
+.hashtagpostcontainer {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+
+.hashtagpostcard {
+    height: 100%;
+    border-radius: 0.3rem;
+    padding: 2%;
+}
+
+.hashtagpostcardimg {
+    width: 100%;
+    height: 200px;
+    overflow: hidden !important;
+}
+
+.hashtagpostcardimg img {
+    /* height: 100% !important; */
+    width: 100%;
+    /* height: max-content !important; */
+}
+
+.categorypostscontainer {
+    margin-top: 1%;
+}
+
+.categoryposts {
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    /*box-shadow: 0 0 10px rgb(0 0 0 / 71%);*/
+    border-radius: 0.3rem;
+    padding: 2%;
+}
+
+.post-preview-card {
+    height: 100%;
+    /* box-shadow: 0 0 10px rgb(0 0 0 / 71%); */
+    border-radius: 0.3rem;
+    padding: 2%;
+}
+
+
+
+#blog-home-title {
+    padding-left: 6%;
+    font-size: 500%;
+
+}
+
+#category-title {
+    padding-left: 6%;
+}
+
+#hashtag-title {
+    padding-left: 6%;
+}
+
+

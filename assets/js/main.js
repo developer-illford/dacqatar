@@ -241,10 +241,10 @@
             $('.what-we-provide-active').slick({
                 dots: true,
                 infinite: true,
-                autoplay: false,
-                autoplaySpeed: 2000,
+                autoplay: true,
+                autoplaySpeed: 0,
                 arrows: false,
-                speed: 1000,
+                speed: 4000,
                 focusOnSelect: true,
                 slidesToShow: 6,
                 slidesToScroll: 2,

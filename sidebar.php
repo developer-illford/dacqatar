@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Email configuration
-    $to = " qatardac@gmail.com";
+    $to = "qatardac@gmail.com, sales@dacqatar.com";
     $subject = "Message from " . $_POST["name"];
     $message = "Name: " . $_POST["name"] . "\n";
     $message .= "Email: " . $_POST["email"] . "\n";
