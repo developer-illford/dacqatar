@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: 
+Disallow: /blog/login
+Disallow: /blog/admin
+Disallow: /blog/blog-editor
+Disallow: /blog/categories
+Disallow: /blog/hashtagposts
+Disallow: /cgi-bin/
+Disallow: /services/digital-signage
+Sitemap: https://dacqatar.com/sitemap.xml
+

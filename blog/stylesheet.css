@@ -2,7 +2,7 @@
 
 * {
     /* border: 1px solid red; */
-    
+
 }
 
 body {
@@ -39,7 +39,7 @@ body {
     /* box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1); */
 }
 
-.container h1{
+.container h1 {
     font-family: "Outfit", sans-serif;
 }
 
@@ -326,12 +326,25 @@ body {
     padding: 2%;
 }
 
+.blog-home-title_bg {
+    width: 100%;
 
+    background-image: url(../assets/images/about_banner.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-home-title_overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #0000008c;
+    padding: 50px;
+}
 
 #blog-home-title {
     padding-left: 6%;
-    font-size: 500%;
-
+    font-size: 300%;
+    color: #fff;
 }
 
 #category-title {
@@ -341,5 +354,4 @@ body {
 #hashtag-title {
     padding-left: 6%;
 }
-
 

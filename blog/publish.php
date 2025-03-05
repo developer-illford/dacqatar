@@ -182,14 +182,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $rootPath = 'https://dacqatar.com/blog/';
     $language = 'en_US';
     $openGraphType = 'article';
-    $publisherUrl = 'https://www.facebook.com/dubaiadvertisingco';
+    $publisherUrl = 'https://www.facebook.com/profile.php?id=61572772381323';
     $publisherName = 'DAC QATAR';
     $publisherTwitterId = '@twitterid';
     $publisherLogo = 'https://dacqatar.com/assets/images/Dac%20LOGO%20black.webp';
     $publisherTagline = 'Empowering brands to connect with their ideal audience - DAC: Your gateway to advertising success';
     $favioconLink = 'https://dacqatar.com/assets/images/favicon.webp';
     $blogHome = 'https://dacqatar.com/blog/index.html';
-    $facebookProfileLink = 'https://www.facebook.com/dubaiadvertisingco';
+    $facebookProfileLink = 'https://www.facebook.com/profile.php?id=61572772381323';
     $instagramProfileLink = 'https://www.instagram.com/dac_qatar/';
     $threadsProfileLink = '';
     $twitterProfileLink = '';
@@ -599,6 +599,8 @@ $robotsMeta = isset($_POST['robotsMetaInput']) ? $_POST['robotsMetaInput'] : 'in
         <link rel="stylesheet" href="../assets/css/style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
+        <link rel=icon href="../assets/images/favicon.webp" sizes="20x20" type="image/png">
+
         <script src="recentposts.js"></script> <!-- Add this line to include the recentposts.js script -->
     </head>
     <body>
@@ -620,29 +622,40 @@ $robotsMeta = isset($_POST['robotsMetaInput']) ? $_POST['robotsMetaInput'] : 'in
 
         <!--Appointment Form-->
         <div class="appointment-form">
-            <form method="post" action="../sidebar.php">
-                <div class="form-group">
-                    <input id="name" type="text" name="name" value="" placeholder="Name" required>
+                    <form method="post" action="../sidebar.php">
+                        <div class="form-group">
+                            <input id="name" type="text" name="name" value="" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input id="email" type="email" name="email" value="" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Message" rows="5"></textarea>
+                        </div>
+                        
+                        <!-- Honeypot field (hidden) -->
+                        <input type="text" name="honeypot" id="honeypot" value="" style="display:none">
+                
+                        <!-- Google reCAPTCHA -->
+                        <div class="form-group">
+                            <div class="g-recaptcha" data-sitekey="6LeLT7IqAAAAAFEC0_g3LTS-OgipDpe7IzUD0Txh"></div>
+                        </div>
+                
+                        <div class="form-group">
+                            <button type="submit" class="theme-btn">Submit now</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <input id="email" type="email" name="email" value="" placeholder="Email Address" required>
-                </div>
-                <div class="form-group">
-                    <textarea id="message" name="message" placeholder="Message" rows="5"></textarea>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="theme-btn">Submit now</button>
-                </div>
-            </form>
-        </div>
+                
+                <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
         <!--Social Icons-->
         <div class="social-style-one">
             <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
-            <a target="_blank" href="https://www.facebook.com/dubaiadvertisingco"><i
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=61572772381323" title="Follow Us on Facebook DAC Qatar"><i
                     class="fab fa-facebook-f"></i></a>
-            <a target="_blank" href="https://www.instagram.com/dac_qatar/"><i class="fab fa-instagram"></i></a>
-            <a target="_blank" href="https://wa.me/+97466637095"><i class="fab fa-whatsapp"></i></a>
+            <a target="_blank" href="https://www.instagram.com/dac_qatar/" title="Follow Us on Instagram DAC Qatar"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://wa.me/+97466637095" title="Chat with Us on WhatsApp - DAC Qatar"><i class="fab fa-whatsapp"></i></a>
         </div>
     </div>
 </section>
@@ -659,7 +672,7 @@ $robotsMeta = isset($_POST['robotsMetaInput']) ? $_POST['robotsMetaInput'] : 'in
             </button>
         </div>
         <div class="logo">
-            <a href="../index.html"><img src="../assets/images/Dac LOGO black.webp" alt="img"></a>
+            <a href="../index.html" title="DAC Qatar - Your Trusted Advertising Partner"><img title="DAC Qatar Logo" src="../assets/images/Dac LOGO black.webp" alt="Logo featuring a flame symbol and the word 'QATAR' in orange letters."></a>
         </div>
         <div class="nav-right-part nav-right-part-mobile">
             <a class="search-bar-btn" href="#">
@@ -669,21 +682,21 @@ $robotsMeta = isset($_POST['robotsMetaInput']) ? $_POST['robotsMetaInput'] : 'in
         <div class="collapse navbar-collapse" id="Iitechie_main_menu">
             <ul class="navbar-nav menu-open text-lg-end">
                 <li>
-                    <a href="../index.html">Home</a>
+                    <a href="../index.html" title="DAC Qatar - Your Trusted Advertising Partner">Home</a>
                 </li>
-                <li><a href="../about.html">about</a></li>
-                <li><a href="../services.html">Services</a></li>
-                <li><a href="../blog/index.html">Blog</a></li>
-                <li><a href="../contact.html">Contact Us</a></li>
+                <li><a href="../about.html" title="About Us DAC Qatar - Leading Advertising Solutions in Qatar" >about</a></li>
+                <li><a href="../services.html" title="Our Services DAC Qatar - Innovative Advertising Solutions">Services</a></li>
+                <li><a href="../blog/index.html" title="DAC Qatar - Your Trusted Advertising Partner">Blog</a></li>
+                <li><a href="../contact.html" title="Contact Us | DAC Qatar - Get in Touch Today">Contact Us</a></li>
                 <li>
-                    <a href="../portfolio.html">Portfolio</a>
+                    <a href="../portfolio.html" title="Our Portfolio  DAC Qatar - Showcasing Our Best Work">Portfolio</a>
                 </li>
             </ul>
             </li>
             </ul>
         </div>
         <div class="nav-right-part nav-right-part-desktop">
-            <a target="_blank" href="../assets/DAC-Profile.pdf" class="theme-btn style-two">Get Portfolio <i
+            <a target="_blank" href="../assets/DAC-Profile.pdf" title="Company Profile DAC Qatar - Download Our Brochure" class="theme-btn style-two">Get Portfolio <i
                     class="far fa-long-arrow-right"></i></a>
             <div class="menu-sidebar">
                 <button>
@@ -735,17 +748,17 @@ $robotsMeta = isset($_POST['robotsMetaInput']) ? $_POST['robotsMetaInput'] : 'in
             <div class="col-xl-4 col-lg-5 col-md-6">
                 <div class="widget widget_about wow fadeInUp delay-0-2s">
                     <div class="footer-logo mb-25">
-                        <a href="../index.html"><img style="width: 30%;"
-                                src="../assets/images/dac logo round.webp" alt="Logo"></a>
+                        <a href="../index.html" title="DAC Qatar - Your Trusted Advertising Partner"><img title="DAC Qatar Logo favicon" style="width: 30%;"
+                                src="../assets/images/dac logo round.webp" alt="A circular logo featuring the text 'DAC' at the top, 'QATAR' below it, and the phrase 'CREATION THROUGH INNOVATION' at the bottom, all presented in a modern font and graphic design style."></a>
                     </div>
                     <p>"Empowering brands to connect with their ideal audience - DAC: Your gateway to
                         advertising success."</p>
                     <div class="social-style-two mt-15">
-                        <a target="_blank" href="https://www.facebook.com/dubaiadvertisingco"><i
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=61572772381323" title="Follow Us on Facebook DAC Qatar"><i
                                 class="fab fa-facebook-f"></i></a>
                         <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
-                        <a target="_blank" href="https://wa.me/+97466637095"><i class="fab fa-whatsapp"></i></a>
-                        <a target="_blank" href="https://www.instagram.com/dac_qatar/"><i
+                        <a target="_blank" href="https://wa.me/+97466637095" title="Chat with Us on WhatsApp - DAC Qatar"><i class="fab fa-whatsapp"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/dac_qatar/" title="Follow Us on Instagram DAC Qatar"><i
                                 class="fab fa-instagram"></i></a>
                     </div>
                 </div>
@@ -754,14 +767,14 @@ $robotsMeta = isset($_POST['robotsMetaInput']) ? $_POST['robotsMetaInput'] : 'in
                 <div class="widget widget_nav_menu wow fadeInUp delay-0-4s">
                     <h4 class="widget-title">Useful Links</h4>
                     <ul>
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="../privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="../about.html">About</a></li>
-                        <li><a href="../terms-and-conditions.html">Terms and Conditions</a></li>
-                        <li><a href="../services.html">Services</a></li>
-                        <li><a href="../blog/index.html">Blog</a></li>
+                        <li><a href="../index.html" title="DAC Qatar - Your Trusted Advertising Partner">Home</a></li>
+                        <li><a href="../privacy-policy.html" title="Privacy Policy  DAC Qatar - Your Data, Our Responsibility">Privacy Policy</a></li>
+                        <li><a href="../about.html" title="About Us DAC Qatar - Leading Advertising Solutions in Qatar" >About</a></li>
+                        <li><a href="../terms-and-conditions.html" title="Terms and Conditions - DAC Qatar">Terms and Conditions</a></li>
+                        <li><a href="../services.html" title="Our Services DAC Qatar - Innovative Advertising Solutions">Services</a></li>
+                        <li><a href="../blog/index.html" title="DAC Qatar - Your Trusted Advertising Partner">Blog</a></li>
                         <li><a href="">Careers</a></li>
-                        <li><a href="../contact.html">Contact Us</a></li>
+                        <li><a href="../contact.html" title="Contact Us | DAC Qatar - Get in Touch Today">Contact Us</a></li>
 
                     </ul>
                 </div>
@@ -777,10 +790,13 @@ $robotsMeta = isset($_POST['robotsMetaInput']) ? $_POST['robotsMetaInput'] : 'in
                         <li style="font-size: 80%;"><i class="far fa-envelope"></i> <a
                                 href="mailto:qatardac@gmail.com">qatardac@gmail.com</a></li>
                         <li style="font-size: 80%;"><i class="far fa-phone"></i> <a
-                                href="calto:+974 4468 4262">+974 4468 4262</a>
+                                href="tel:+974 4468 4262">+974 4468 4262</a>
                         </li>
                         <li style="font-size: 80%;"><i class="far fa-phone"></i> <a
-                                href="calto:+974 665 66429">+974 665 66429 / 666 370 95</a>
+                            href="tel:+974 665 66429">+974 665 664 29</a>
+                        </li>
+                        <li style="font-size: 80%;"><i class="far fa-phone"></i> <a
+                            href="tel:+974 666 370 95">+974 666 370 95</a>
                         </li>
                     </ul>
                 </div>
@@ -790,9 +806,9 @@ $robotsMeta = isset($_POST['robotsMetaInput']) ? $_POST['robotsMetaInput'] : 'in
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <div class="copyright-text text-center text-lg-start">
-                        <p><a href="../index.html">Dubai Advertising Company</a> © Copyright 2025, Al Right
+                        <p><a href="../index.html" title="DAC Qatar - Your Trusted Advertising Partner">Dubai Advertising Company</a> © Copyright 2025, Al Right
                             Reserved &nbsp; &nbsp; &nbsp; Designed and Developed by: <a target="_blank"
-                                href="https://illforddigital.com/">Illford Digital</a></p>
+                                href="https://illforddigital.com/" title="illford Digital">Illford Digital</a></p>
                     </div>
                 </div>
                 <!-- <div class="col-lg-6">
@@ -821,7 +837,7 @@ $robotsMeta = isset($_POST['robotsMetaInput']) ? $_POST['robotsMetaInput'] : 'in
 
 
     <!-- <div class="floating_btn">
-        <a target="_blank" href="https://wa.me/+97466637095" style="text-decoration: none;">
+        <a target="_blank" href="https://wa.me/+97466637095" title="Chat with Us on WhatsApp - DAC Qatar" style="text-decoration: none;">
             <div class="contact_icon">
                 <i class="fa fa-whatsapp my-float"></i>
             </div>

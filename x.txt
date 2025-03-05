@@ -1,0 +1,559 @@
+<!-- ******************************************************************************** -->
+        <!-- ******************************************************************************** -->
+
+        <!-- Services Area start -->
+
+
+        <!-- <section class="team-area rel z-1 pt-120 pb-130">
+            <div class="container">
+                <div class="row justify-content-between align-items-end pb-25">
+                    <div class="col-xl-6 col-lg-8">
+                        <div class="section-title mb-25 wow fadeInUp delay-0-2s">
+                            <span class="sub-title mb-10">Our Specialities</span>
+                            <h2>Why Choose Us For Your Advertising Needs?</h2>
+                            <p> We stand out as the premier choice for elevating spaces with innovative design,
+                                meticulous planning, and expert execution, ensuring your vision exceeds
+                                expectations.</p>
+                            <a href="services.html" title="Our Services DAC Qatar - Innovative Advertising Solutions" class="theme-btn hover-two mt-20">Learn More <i
+                                    class="far fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="team-slider">
+                    <div class="team-member wow fadeInUp delay-0-2s">
+                        <div class="service-item wow fadeInDown delay-0-4s">
+                            <div class="icon">
+                                <img   src="assets/images/icon01.webp" alt="">
+                            </div>
+                            <h3><a href="">Design Excellence</a></h3>
+                            <p>Our team of skilled designers & architects
+                                blend creativity with functionality to deliver designs that captivate and
+                                inspire.</p>
+                            <div class="bg-image" style="background-image: url(assets/images/subanner.webp);"></div>
+                        </div>
+                    </div>
+                    <div class="team-member wow fadeInUp delay-0-4s">
+                        <div class="service-item wow fadeInDown delay-0-4s">
+                            <div class="icon">
+                                <img   src="assets/images/icon02.webp" alt="">
+                            </div>
+                            <h3><a href="">Craftsmanship</a></h3>
+                            <p>We take pride in our meticulous attention to detail and skilled
+                                craftsmanship, ensuring the highest quality in every project.</p>
+                            <div class="bg-image" style="background-image: url(assets/images/subanner.webp);"></div>
+                        </div>
+                    </div>
+                    <div class="team-member wow fadeInUp delay-0-6s">
+                        <div class="service-item wow fadeInUp delay-0-6s">
+                            <div class="icon">
+                                <img   src="assets/images/icon03.webp" alt="">
+                            </div>
+                            <h3><a href="">Innovation</a></h3>
+                            <p>Staying ahead of industry trends, we incorporate innovative materials and
+                                technologies to provide cutting-edge solutions.</p>
+                            <div class="bg-image" style="background-image: url(assets/images/subanner.webp);"></div>
+                        </div>
+                    </div>
+                    <div class="team-member wow fadeInUp delay-0-2s">
+                        <div class="service-item wow fadeInUp delay-0-6s">
+                            <div class="icon">
+                                <img   src="assets/images/icon04.webp" alt="">
+                            </div>
+                            <h3><a href="">Collaborative Approach</a></h3>
+                            <p>We believe in fostering strong client
+                                relationships through open communication, collaboration, and a deep
+                                understanding of your vision.</p>
+
+
+                            <div class="bg-image" style="background-image: url(assets/images/subanner.webp);"></div>
+                        </div>
+                    </div>
+                    <div class="team-member wow fadeInUp delay-0-2s">
+                        <div class="service-item wow fadeInDown delay-0-4s">
+                            <div class="icon">
+                                <img   src="assets/images/icon05.webp" alt="">
+                            </div>
+                            <h3><a href="">Turnkey Solutions</a></h3>
+                            <p>From concept to installation, we offer
+                                end-to-end solutions, streamlining the process and ensuring a seamless
+                                experience.</p>
+                            <div class="bg-image" style="background-image: url(assets/images/subanner.webp);"></div>
+                        </div>
+                    </div>
+                    <div class="team-member wow fadeInUp delay-0-2s">
+                        <div class="service-item wow fadeInDown delay-0-4s">
+                            <div class="icon">
+                                <img   src="assets/images/icon06.webp" alt="">
+                            </div>
+                            <h3><a href="">Sustainability</a></h3>
+                            <p>We are committed to environmentally responsible practices, integrating
+                                sustainable materials and practices into our projects.</p>
+                            <div class="bg-image" style="background-image: url(assets/images/subanner.webp);"></div>
+                        </div>
+                    </div>
+                    <div class="team-member wow fadeInUp delay-0-2s">
+                        <div class="service-item wow fadeInUp delay-0-6s">
+                            <div class="icon">
+                                <img   src="assets/images/icon07.webp" alt="">
+                            </div>
+                            <h3><a href="">Efficient Inhouse Capability</a></h3>
+                            <p>With sophisticated machineries
+                                and infrastructure, we are able handle various tasks, functions, or
+                                processes internally, without relying heavily on external resources or
+                                outsourcing.</p>
+                            <div class="bg-image" style="background-image: url(assets/images/subanner.webp);"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="circle-shapes">
+                <div class="shape-inner">
+                    <span class="dot-one"></span>
+                    <span class="dot-two"></span>
+                    <span class="dot-three"></span>
+                    <span class="dot-four"></span>
+                    <span class="dot-five"></span>
+                </div>
+            </div>
+        </section> -->
+
+
+        <!-- Services Area Ends -->
+
+
+
+
+
+
+        
+
+<!-- Latest Project start -->
+        <!-- <section class="latest-project-area pt-90 pb-130">
+            <div class="container">
+                <div class="row justify-content-between align-items-center pb-45">
+                    <div class="col-lg-6">
+                        <div class="section-title mb-15 wow fadeInLeft delay-0-2s">
+                            <span class="sub-title mb-10">Latest Project</span>
+                            <h2>Have Look Our Recent Amazing Projects!</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a href="project.html" class="theme-btn mt-15 wow fadeInRight delay-0-2s">View More Projects <i
+                                class="far fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-4">
+                        <div class="tab-btns-one rmb-75 nav flex-column nav-pills wow fadeInRight delay-0-2s">
+                            <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#project-tab-one">
+                                <i class="flaticon-tshirt"></i>
+                                <span class="title">T-Shirt Printing</span>
+                            </button>
+                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#project-tab-two">
+                                <i class="flaticon-credit-cards"></i>
+                                <span class="title">Business Card</span>
+                            </button>
+                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#project-tab-three">
+                                <i class="flaticon-tea-cup"></i>
+                                <span class="title">Coffee Mug Printing</span>
+                            </button>
+                            <button class="nav-link mb-0" data-bs-toggle="pill" data-bs-target="#project-tab-four">
+                                <i class="flaticon-book"></i>
+                                <span class="title">Book Printing</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="project-tab-content rel wow fadeInLeft delay-0-2s">
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="project-tab-one">
+                                    <div class="project-active">
+                                        <div class="project-item">
+                                            <img   src="assets/images/projects/project-one-1.webp" alt="Project">
+                                            <div class="content">
+                                                <div class="text">
+                                                    <h4><a href="project-details.html">T-Shirt Printing</a></h4>
+                                                    <span>Design & Branding</span>
+                                                </div>
+                                                <a class="plus" href="project-details.html">
+                                                    <i class="far fa-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="project-item">
+                                            <img   src="assets/images/projects/project-one-1.webp" alt="Project">
+                                            <div class="content">
+                                                <div class="text">
+                                                    <h4><a href="project-details.html">T-Shirt Printing</a></h4>
+                                                    <span>Design & Branding</span>
+                                                </div>
+                                                <a class="plus" href="project-details.html">
+                                                    <i class="far fa-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="project-tab-two">
+                                    <div class="project-active">
+                                        <div class="project-item">
+                                            <img   src="assets/images/projects/project-one-1.webp" alt="Project">
+                                            <div class="content">
+                                                <div class="text">
+                                                    <h4><a href="project-details.html">T-Shirt Printing</a></h4>
+                                                    <span>Design & Branding</span>
+                                                </div>
+                                                <a class="plus" href="project-details.html">
+                                                    <i class="far fa-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="project-item">
+                                            <img   src="assets/images/projects/project-one-1.webp" alt="Project">
+                                            <div class="content">
+                                                <div class="text">
+                                                    <h4><a href="project-details.html">T-Shirt Printing</a></h4>
+                                                    <span>Design & Branding</span>
+                                                </div>
+                                                <a class="plus" href="project-details.html">
+                                                    <i class="far fa-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="project-tab-three">
+                                    <div class="project-active">
+                                        <div class="project-item">
+                                            <img   src="assets/images/projects/project-one-1.webp" alt="Project">
+                                            <div class="content">
+                                                <div class="text">
+                                                    <h4><a href="project-details.html">T-Shirt Printing</a></h4>
+                                                    <span>Design & Branding</span>
+                                                </div>
+                                                <a class="plus" href="project-details.html">
+                                                    <i class="far fa-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="project-item">
+                                            <img   src="assets/images/projects/project-one-1.webp" alt="Project">
+                                            <div class="content">
+                                                <div class="text">
+                                                    <h4><a href="project-details.html">T-Shirt Printing</a></h4>
+                                                    <span>Design & Branding</span>
+                                                </div>
+                                                <a class="plus" href="project-details.html">
+                                                    <i class="far fa-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="project-tab-four">
+                                    <div class="project-active">
+                                        <div class="project-item">
+                                            <img   src="assets/images/projects/project-one-1.webp" alt="Project">
+                                            <div class="content">
+                                                <div class="text">
+                                                    <h4><a href="project-details.html">T-Shirt Printing</a></h4>
+                                                    <span>Design & Branding</span>
+                                                </div>
+                                                <a class="plus" href="project-details.html">
+                                                    <i class="far fa-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="project-item">
+                                            <img   src="assets/images/projects/project-one-1.webp" alt="Project">
+                                            <div class="content">
+                                                <div class="text">
+                                                    <h4><a href="project-details.html">T-Shirt Printing</a></h4>
+                                                    <span>Design & Branding</span>
+                                                </div>
+                                                <a class="plus" href="project-details.html">
+                                                    <i class="far fa-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="circle-shapes">
+                                <div class="shape-inner">
+                                    <span class="dot-one"></span>
+                                    <span class="dot-two"></span>
+                                    <span class="dot-three"></span>
+                                    <span class="dot-four"></span>
+                                    <span class="dot-five"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Latest Project end -->
+
+
+
+<!-- Testimonials start -->
+        <!-- <section class="testimonials-area pt-130">
+            <div class="container rel">
+                <div class="row justify-content-between pb-35">
+                    <div class="col-lg-5">
+                        <div class="section-title mb-20 wow fadeInRight delay-0-2s">
+                            <span class="sub-title mb-10">Our Testimonials</span>
+                            <h2>What Our Clients Say About Services</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="global-clients mb-20 wow fadeInLeft delay-0-2s">
+                            <h5>Global Clients</h5>
+                            <div class="images">
+                                <img   src="assets/images/global-client1.webp" alt="Global client">
+                                <img   src="assets/images/global-client2.webp" alt="Global client">
+                                <img   src="assets/images/global-client3.webp" alt="Global client">
+                                <img   src="assets/images/global-client4.webp" alt="Global client">
+                                <img   src="assets/images/global-client5.webp" alt="Global client">
+                                <img   src="assets/images/global-client6.webp" alt="Global client">
+                                <img   src="assets/images/global-client7.webp" alt="Global client">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-active">
+                    <div class="testimonial-item">
+                        <div class="image">
+                            <img   src="assets/images/TESTIMONIAL 370X430.webp" alt="Testimonial">
+                        </div>
+                        <div class="content">
+                            <div class="text">
+                                "Their team's creativity, professionalism, and dedication exceeded my expectations. They
+                                not only delivered top-notch advertising solutions but also ensured that our brand
+                                message resonated with our target audience. Working with DAC was a game-changer for our
+                                marketing strategy, and I highly recommend their services to anyone seeking innovative
+                                advertising solutions in Dubai."
+                            </div>
+                            <div class="author">
+                                <img   src="assets/images/global-client1.webp" alt="Author">
+                                <div class="title">
+                                    <h5>John Doe</h5>
+                                    <span>Senior Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="image">
+                            <img   src="assets/images/Testimonial 370x430 (1).webp" alt="Testimonial">
+                        </div>
+                        <div class="content">
+                            <div class="text">
+                                "Choosing DAC for our advertising needs was one of the best decisions we made for our
+                                business. From the initial consultation to the final execution, their team demonstrated
+                                unparalleled expertise and commitment. They tailored their strategies to fit our unique
+                                requirements, resulting in a highly successful campaign that generated significant
+                                traction and boosted our brand visibility."
+                            </div>
+                            <div class="author">
+                                <img   src="assets/images/global-client3.webp" alt="Author">
+                                <div class="title">
+                                    <h5>Jeremy J. Collins</h5>
+                                    <span>Senior Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="circle-shapes">
+                    <div class="shape-inner">
+                        <span class="dot-one"></span>
+                        <span class="dot-two"></span>
+                        <span class="dot-three"></span>
+                        <span class="dot-four"></span>
+                        <span class="dot-five"></span>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+        <!-- Testimonials end -->
+
+
+        <!-- Pricing Plan start -->
+        <!-- <section class="pricing-plan-area pt-120 pb-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-7 col-lg-8">
+                        <div class="section-title text-center mb-55 wow fadeInUp delay-0-2s">
+                            <span class="sub-title mb-10">Pricing Package</span>
+                            <h2>Smart Printing Pricing Package</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="pricing-plan-item wow fadeInUp delay-0-2s">
+                            <h4 class="title">Regular Plan</h4>
+                            <div class="image">
+                                <img   src="assets/images/pricing/pricing-plan-1.webp" alt="Pricing">
+                            </div>
+                            <ul>
+                                <li>Design & Printing <i class="fas fa-check"></i></li>
+                                <li>3D Printing <i class="fas fa-check"></i></li>
+                                <li>Ofset Printing <i class="fas fa-check"></i></li>
+                                <li class="unavailable">Color Printing <i class="fas fa-check"></i></li>
+                                <li class="unavailable">Logo & T-Shirt <i class="fas fa-check"></i></li>
+                            </ul>
+                            <span class="price">258.53</span>
+                            <a href="contact.html" title="Contact Us | DAC Qatar - Get in Touch Today" class="theme-btn style-three">Choose Package <i
+                                    class="far fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="pricing-plan-item wow fadeInUp delay-0-4s">
+                            <h4 class="title">Standard Plan</h4>
+                            <div class="image">
+                                <img   src="assets/images/pricing/pricing-plan-2.webp" alt="Pricing">
+                            </div>
+                            <ul>
+                                <li>Design & Printing <i class="fas fa-check"></i></li>
+                                <li>3D Printing <i class="fas fa-check"></i></li>
+                                <li>Ofset Printing <i class="fas fa-check"></i></li>
+                                <li>Color Printing <i class="fas fa-check"></i></li>
+                                <li class="unavailable">Logo & T-Shirt <i class="fas fa-check"></i></li>
+                            </ul>
+                            <span class="price">583.53</span>
+                            <a href="contact.html" title="Contact Us | DAC Qatar - Get in Touch Today" class="theme-btn style-three">Choose Package <i
+                                    class="far fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="pricing-plan-item wow fadeInUp delay-0-6s">
+                            <h4 class="title">Silver Plan</h4>
+                            <div class="image">
+                                <img   src="assets/images/pricing/pricing-plan-3.webp" alt="Pricing">
+                            </div>
+                            <ul>
+                                <li>Design & Printing <i class="fas fa-check"></i></li>
+                                <li>3D Printing <i class="fas fa-check"></i></li>
+                                <li>Ofset Printing <i class="fas fa-check"></i></li>
+                                <li>Color Printing <i class="fas fa-check"></i></li>
+                                <li>Logo & T-Shirt <i class="fas fa-check"></i></li>
+                            </ul>
+                            <span class="price">858.53</span>
+                            <a href="contact.html" title="Contact Us | DAC Qatar - Get in Touch Today" class="theme-btn style-three">Choose Package <i
+                                    class="far fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Pricing Plan end -->
+
+
+        <!-- Blog Area start -->
+        <!-- <section class="blog-area z-1 rel bgc-lighter pt-120 pb-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-7">
+                        <div class="section-title text-center mb-55 wow fadeInUp delay-0-2s">
+                            <span class="sub-title mb-10">Latest News & Blog</span>
+                            <h2>Get Every Single Updates Latest News & Blog</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="blog-item wow fadeInUp delay-0-2s">
+                            <div class="image">
+                                <img   src="assets/images/blog/blog1.webp" alt="Blog">
+                            </div>
+                            <div class="content">
+                                <div class="author">
+                                    <img   src="assets/images/blog/author.webp" alt="Author">
+                                    <a class="name" href="#">Somalia</a>
+                                </div>
+                                <span class="date"><i class="far fa-calendar-alt"></i> <a href="#">Jule 24,
+                                        2022</a></span>
+                                <h4><a href="blog-details.html">Smashing Podcast Episode With Vitaly Friedman Jay</a>
+                                </h4>
+                                <a href="blog-details.html" class="read-more">Read More <i
+                                        class="far fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 order-xl-3">
+                        <div class="blog-item wow fadeInUp delay-0-6s">
+                            <div class="image">
+                                <img   src="assets/images/blog/blog3.webp" alt="Blog">
+                            </div>
+                            <div class="content">
+                                <div class="author">
+                                    <img   src="assets/images/blog/author.webp" alt="Author">
+                                    <a class="name" href="#">Somalia</a>
+                                </div>
+                                <span class="date"><i class="far fa-calendar-alt"></i> <a href="#">Jule 24,
+                                        2022</a></span>
+                                <h4><a href="blog-details.html">Rethinking Server-Timing As A Monitoring Tool</a></h4>
+                                <a href="blog-details.html" class="read-more">Read More <i
+                                        class="far fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="blog-item active wow fadeInUp delay-0-4s">
+                            <div class="image">
+                                <img   src="assets/images/blog/blog2.webp" alt="Blog">
+                            </div>
+                            <div class="content">
+                                <div class="author">
+                                    <img   src="assets/images/blog/author.webp" alt="Author">
+                                    <a class="name" href="#">Somalia</a>
+                                </div>
+                                <span class="date"><i class="far fa-calendar-alt"></i> <a href="#">Jule 24,
+                                        2022</a></span>
+                                <h4><a href="blog-details.html">Modern Way To Create And See Host WordPress</a></h4>
+                                <a href="blog-details.html" class="read-more">Read More <i
+                                        class="far fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="circle-shapes">
+                <div class="shape-inner">
+                    <span class="dot-one"></span>
+                    <span class="dot-two"></span>
+                    <span class="dot-three"></span>
+                    <span class="dot-four"></span>
+                    <span class="dot-five"></span>
+                </div>
+            </div>
+        </section> -->
+        <!-- Blog Area end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <!-- <div class="col-lg-6">
+                            <div class="payment-method-image mb-15 text-center text-lg-end">
+                                <a href="#"><img   src="assets/images/footer/payment-method.webp" alt="Payment Method"></a>
+                            </div>
+                        </div> -->
