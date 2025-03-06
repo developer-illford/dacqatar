@@ -836,14 +836,15 @@ $robotsMeta = isset($_POST['robotsMetaInput']) ? $_POST['robotsMetaInput'] : 'in
     
 
 
-    <!-- <div class="floating_btn">
-        <a target="_blank" href="https://wa.me/+97466637095" title="Chat with Us on WhatsApp - DAC Qatar" style="text-decoration: none;">
+    <!-- whatsapp floating button -->
+    <div class="floating_btn">
+        <a target="_blank" href="https://wa.me/+97466637095" title="Chat with Us on WhatsApp - DAC Qatar">
             <div class="contact_icon">
-                <i class="fa fa-whatsapp my-float"></i>
+                <i class="bi bi-whatsapp my-float"></i>
             </div>
         </a>
         <p class="text_icon">Talk to us?</p>
-    </div> -->
+    </div>
     
     
     <script src="recentposts.js"></script>
